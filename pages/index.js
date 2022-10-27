@@ -2,9 +2,9 @@ import { useState } from "react";
 
 function Home(){
     return (<div>
-        <h2>Home</h2>
+        <h2>A manga informa</h2>
         <Contador />
-        <div>Teste</div>
+        <div>Bruno te ama muitoooooooooooooooooooo!</div>
 
     </div>)
 }
