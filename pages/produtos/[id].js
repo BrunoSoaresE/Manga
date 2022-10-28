@@ -28,7 +28,7 @@ export async function getStaticPaths() {/* roda somente no cliente - porem defin
             },
         }],
         /*fallback: false Pagina 404 para id fora da list acima */
-        /*fallback: true permite todos os acessos tentara gerar de forma asyc*/
+        /*fallback: true permite todos os acessos tentara gerar de forma asyc*//* melhor experiencia para colocar tela de carregando */
         fallback: 'blocking'/* bloqueia a requisição ate seu carregamento */
     }
 }
