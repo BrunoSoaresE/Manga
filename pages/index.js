@@ -11,20 +11,32 @@ import { SubPagePortifolio } from '../subPages/Portifolio/Portifolio';
 import { SubPageRodape } from '../subPages/Rodape/Rodape';
 
 function Home() {
+    /*https://seoanalyzer.me/domain/tecmanga.com.br/update 
+    
+        title:  between 10 and 70 characters (spaces included).
+        description : between 100 and 300 characters (spaces included).
+    */
+
+
+
+
     return (<div className="application">
-
         <Head>
-            <title>TecManga</title>
-            <meta name='description' content='Seu site está próximo de se tornar realidade' />
-            <meta property="og:title" content="Veja como ter um site sem preocupações" />
-            <meta property="og:description" content="Tenha sua marca em destaque, conseguindo atrair os mais diversos publicos." />
+            <title>TecManga - Veja como ter um site sem preocupações</title>
+            <meta property="og:title" content="TecManga - Veja como ter um site sem preocupações" />
+            
+            <meta name='description' content='Seu site está próximo de se tornar realidade a TecManga vai ajuda-lo a tornar seu sonho realidade sem dor de cabeça' />
+            <meta property="og:description" content="Seu site está próximo de se tornar realidade a TecManga vai ajuda-lo a tornar seu sonho realidade sem dor de cabeça." />
 
+            <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" alt='Logo TecManga' />
+            <link rel='icon' href='/favicon.ico'  alt='Logo TecManga' />     
 
-            <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />
+            <meta name="author" content="TecManga" />
+            <meta name="copyright" content="© 2022 TecManga" />
+
             <meta property='og:url' content='https://tecmanga.com.br/' />
-            <meta property='og:type' content='website' />
-
-            <link rel='icon' href='/favicon.ico' />
+            <meta property='og:type' content='website'/>
+            <meta http-equiv="content-language" content="pt-br, en-US" />
         </Head>
 
 
