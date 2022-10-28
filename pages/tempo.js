@@ -23,7 +23,7 @@ export function getStaticProps() {
         props: {
             staticDateString,
         },
-        revalidate: 10
+        revalidate: 10/* apos 10 segundos, a proxima requicição ira atualizar o cache */
     }
 }
 
