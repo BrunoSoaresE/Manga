@@ -8,6 +8,10 @@ async function tempo(request,response){
     const subscribersResponseJson = await subscribersResponse.json();
     const pokemon = subscribersResponseJson.name;
 
+    response.setHeader('Cache-Control','s-maxage=10, stale-while-revalidate');
+    /*Realiza o cache do resultado por no maximo "s-maxage=" + segundos */
+
+
     response.json({
         date: dynamicDate.toGMTString(),
         pokemon: pokemon,
