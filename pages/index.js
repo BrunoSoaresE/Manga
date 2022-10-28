@@ -11,7 +11,7 @@ import { SubPageRodape } from '../subPages/Rodape/Rodape';
 
 function Home(){
     return (<div>
- 
+ <h1>Meu teste seo</h1>
         <SubPageCabecalho name="1 - SubPageCabecalho"></SubPageCabecalho>
         <SubPageEspaco name="2 - SubPageEspaco"></SubPageEspaco>
         <SubPageComoFunciona name="3 - SubPageComoFunciona"></SubPageComoFunciona>
