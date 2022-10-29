@@ -1,0 +1,93 @@
+.header
+{
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow:  0 5vh 5vh rgba(0,0,0,0.05);
+}
+
+.logo
+{
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 5vw;  
+}
+.group
+{
+  display: flex;
+  align-items: center;
+  padding-right: 5vw;  
+  padding-left: 5vw;  
+}
+.header ul
+{
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+.header ul li
+{
+  list-style: none;
+}
+.header ul li a
+{
+  position: relative;
+  text-decoration: none;
+  font-size: 1em;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.header ul li a::before
+{
+ content: '';
+ position: absolute;
+ bottom: -0.2vh;
+ width: 100%;
+ height: 2px;
+ background: #333;
+ transform: scaleX(0);
+ transition: 0.5s ease-in-out;
+ transform-origin: right;
+}
+.header ul li a:hover::before
+{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.menuToggle
+{
+  position: relative;
+  display: none;
+}
+
+@media(max-width: 800px)
+{
+  .menuToggle
+  {
+    position: absolute;
+    right: 5vw;
+    display: block;
+    font-size: 2em;
+    cursor: pointer; 
+  }
+
+  .header .navigation
+  {
+    opacity: 0;
+    visibility: hidden;   
+  }
+}
