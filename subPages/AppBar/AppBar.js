@@ -1,46 +1,69 @@
-import { useEffect, useRef } from 'react';
-
+import Image from 'next/image';
+import React, { useEffect, useRef } from "react";
 import { CgMenu } from "react-icons/cg";
+import logo from '../../assets/logos/LogoOficialVerdeSemBorda.png';
 import styles from './AppBar.module.css';
-
 export function SubPageAppBar(props) {
 
+console.log(logo);
   const refMenuToggle = useRef();
-  const refHeader = useRef();
+  const refSubPageMenuLateral = useRef();
+  const refMLEspace = useRef();
+
+
   useEffect(() => {
-
-  
-
     refMenuToggle.current.onclick = function () {
-      refHeader.current.classList.toggle(styles.open);
-      console.log("DEU CERTO")
+      refSubPageMenuLateral.current.classList.toggle(styles.open);
     }
+    refMLEspace.current.onclick = function () {
+      refSubPageMenuLateral.current.classList.toggle(styles.openclose);
+      setTimeout(() => {
+        refSubPageMenuLateral.current.classList.toggle(styles.open);
+        refSubPageMenuLateral.current.classList.toggle(styles.openclose);
+      }, 300);
 
-  },[])
-  
+    }
+  }, [])
+
 
 
   return (
-    <header className={`${styles.header} `}   ref={refHeader} >
+    <>
 
-      <a href='#' className={styles.logo}>Logo</a>
-      <div className={styles.group}>
-        <ul className={styles.navigation}>
+      <div className={`${styles.menuLateral}`} ref={refSubPageMenuLateral}>
+        <div className={styles.MLEspace} ref={refMLEspace}></div>
 
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contatos</a></li>
-        </ul>
-        <div ref={refMenuToggle} className={styles.menuToggle}>
-        <CgMenu/>
+        <div className={styles.MLgroup} >
+          <ul className={styles.MLnavigation}>
+            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Vantagens</a></li>
+            <li><a href="#">Portifólio</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+
         </div>
-
-
       </div>
 
-    </header>
 
+      <header className={`${styles.header} `}   >
+        <a href='#' className={styles.logo}><Image src={logo} className={styles.logoImg}  alt="Logo TecManga" /></a>
+        <div className={styles.group}>
+          <ul className={styles.navigation}>
+
+          <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Vantagens</a></li>
+            <li><a href="#">Portifólio</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+          <div ref={refMenuToggle} className={styles.menuToggle}>
+            <CgMenu />
+          </div>
+        </div>
+      </header>
+    </>
   );
+}
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }

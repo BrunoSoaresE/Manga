@@ -1,4 +1,48 @@
-.error {
-    color: white;
-    background-color: rgb(119, 0, 255);
+.espaco {
+  text-align: center;
+  padding-top: 4.5vh;
+  padding-right: 2vw;
+}
+
+
+.espacoTitulo {
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+.espacoP {
+  font-size: 1.2em;
+  font-weight: normal;
+
+}
+
+.espacoUL {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+
+}
+
+.espacoLI {
+  list-style: none;
+}
+
+.trabalho {
+  width: 32vw; 
+  height: auto;
+  border-radius: 25%;
+}
+
+
+@media(max-width: 800px)
+{
+  .espacoUL {
+    display: block;  
   }
+  .trabalho {
+    width: 80vw; 
+    height: auto;
+  }
+}

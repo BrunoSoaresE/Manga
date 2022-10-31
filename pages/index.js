@@ -1,8 +1,17 @@
+import { Roboto } from '@next/font/google';
 import Head from 'next/head';
 import React from 'react';
 import styles from '../styles.module.css';
 import { SubPageAppBar } from '../subPages/AppBar/AppBar';
+import { SubPageCabecalho } from '../subPages/Cabecalho/Cabecalho';
+import { SubPageComoFunciona } from '../subPages/ComoFunciona/ComoFunciona';
+import { SubPageEspaco } from '../subPages/Espaco/Espaco';
+import { SubPageFuncionalidades } from '../subPages/Funcionalidades/Funcionalidades';
 
+
+const roboto = Roboto({
+    weight: '400',
+})
 
 
 function Home() {
@@ -15,7 +24,7 @@ function Home() {
 
 
 
-    return ( <div className={styles.application}>
+    return (<div className={`${styles.application} ${roboto.className}`} >
         <Head>
             <title>TecManga - Veja como ter um site sem preocupações</title>
             <meta property="og:title" content="TecManga - Veja como ter um site sem preocupações" />
@@ -52,17 +61,23 @@ function Home() {
 
 
         <SubPageAppBar name="0 - SubPageAppBar"></SubPageAppBar>
-         {/*
-        <SubPageCabecalho name="1 - SubPageCabecalho"></SubPageCabecalho>
-        <SubPageEspaco name="2 - SubPageEspaco"></SubPageEspaco>
-        <SubPageComoFunciona name="3 - SubPageComoFunciona"></SubPageComoFunciona>
+        <div className={styles.appmodulos}>
+            <SubPageCabecalho name="1 - SubPageCabecalho"></SubPageCabecalho>
+            <SubPageEspaco name="2 - SubPageEspaco"></SubPageEspaco>
+            <SubPageComoFunciona name="3 - SubPageComoFunciona"></SubPageComoFunciona>
+            <SubPageFuncionalidades name="4 - SubPageFuncionalidades"></SubPageFuncionalidades>
+        </div>
+        {/*
+
+        
+       
         <SubPageFuncionalidades name="4 - SubPageFuncionalidades"></SubPageFuncionalidades>
         <SubPagePortifolio name="5 - SubPagePortifolio"></SubPagePortifolio>
         <SubPageClientes name="6 - SubPageClientes"></SubPageClientes>
         <SubPageFaleConosco name="7 - SubPageFaleConosco"></SubPageFaleConosco>
         <SubPagePerguntas name="8 - SubPagePerguntas"></SubPagePerguntas>
         <SubPageRodape name="9 - SubPageRodape"></SubPageRodape>*/}
- 
-        </div>)
+
+    </div>)
 }
 export default Home

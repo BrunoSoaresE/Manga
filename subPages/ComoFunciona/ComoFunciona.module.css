@@ -1,4 +1,56 @@
-.error {
-    color: white;
-    background-color: rgb(255, 0, 255);
+.comoFuncionaTitulo{
+  text-align: center;
+  font-size: 2em;
+
+}
+.comoFuncionaUl {
+  text-align: center;
+  display: flex;  
+
+}
+
+.comoFuncionaLI {
+  list-style: none;
+  width: calc(100%/3);
+}
+
+@media(max-width: 800px)
+{
+  .comoFuncionaUl {
+    display: block;  
   }
+  .comoFuncionaLI {
+    width: 100%;
+  }
+
+}
+
+
+
+.numberBox{
+  border: solid black 1px;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.number{
+  display: center;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.p1{
+font-size: 1.8em;
+font-weight: bold;
+
+}
+
+.p2{
+  font-size: 1.1em;
+}
+
+.p3{
+  font-size: 1.3em;
+  font-weight: bold;
+}
