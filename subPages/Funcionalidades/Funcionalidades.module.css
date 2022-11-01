@@ -1,20 +1,24 @@
 .funcionalidadesTitulo {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
 
 }
 
 .funcionalidadesUl {
-  text-align: center;
 
+  align-items: center;
+  text-align: center;
 }
 
 .funcionalidadesLI {
-  list-style: none;
 
+  margin: auto;
+  list-style: none;
+  position: relative;
+  left: -5vw;
 }
 
-.card {
+.card {  
   padding: 1vw;
   width: 46%;
   display: inline-block;
@@ -26,6 +30,7 @@
   .card {
     display: block; 
     width: 99%; 
+  
   }
   /*
   .funcionalidadesLI {
@@ -34,28 +39,23 @@
 }
 
 .number{ 
-  font-size: 70px;
+  font-size: 50px;
   margin-right: 5%;
 }
 .span{
  position: relative;
- top:-25px
-
+ top:-20px
 }
 
-.p1{
+.p1{  
   text-align: left;
-  background: red;
-  font-size: 1.8em;
+  font-size: 1.4em;
   font-weight: bold;
-
-
 }
 
 .p2{
-  font-size: 1.1em;
-  margin-left: 10%;
-  
+    font-size: 1.1em;
+  margin-left: 6vw;  
   text-align: justify;
 
 }

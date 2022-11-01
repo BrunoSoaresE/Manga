@@ -6,9 +6,12 @@
 
 
 .espacoTitulo {
-  font-size: 2em;
+  font-size: 2.3em;
   font-weight: bold;
-
+}
+.espacoAutor{
+  font-size: 0.5em;
+  font-weight: normal;
 }
 
 .espacoP {
@@ -30,7 +33,7 @@
 }
 
 .trabalho {
-  width: 32vw; 
+  width: 32%; 
   height: auto;
   border-radius: 25%;
 }
@@ -42,7 +45,7 @@
     display: block;  
   }
   .trabalho {
-    width: 80vw; 
+    width: 80%; 
     height: auto;
   }
 }

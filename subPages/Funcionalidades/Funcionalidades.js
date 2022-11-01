@@ -30,11 +30,11 @@ export function SubPageFuncionalidades(props) {
 
         <li className={styles.funcionalidadesLI}>
           <div className={styles.card}>
-            <p className={styles.p1}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
+            <p className={styles.p1}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro22 passo</spa></p>
             <p className={styles.p2}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
           </div>
           <div className={styles.card}>
-            <p className={styles.p1}><BiRocket className={styles.number} /> <spa className={styles.span} >Segundo passo</spa></p>
+            <p className={styles.p1}><BiRocket className={styles.number} /> <spa className={styles.span} >Segundo33 passo</spa></p>
             <p className={styles.p2}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
           </div>
         </li>

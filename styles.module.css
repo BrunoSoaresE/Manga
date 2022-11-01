@@ -2,6 +2,7 @@
     background: #dee1e2;    
     min-height: 150vh;
     overflow-x: auto;    
+    width: 100%;
   }
 
   .appmodulos{

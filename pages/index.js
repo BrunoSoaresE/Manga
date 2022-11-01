@@ -7,6 +7,7 @@ import { SubPageCabecalho } from '../subPages/Cabecalho/Cabecalho';
 import { SubPageComoFunciona } from '../subPages/ComoFunciona/ComoFunciona';
 import { SubPageEspaco } from '../subPages/Espaco/Espaco';
 import { SubPageFuncionalidades } from '../subPages/Funcionalidades/Funcionalidades';
+import { SubPagePortifolio } from '../subPages/Portifolio/Portifolio';
 
 
 const roboto = Roboto({
@@ -66,13 +67,13 @@ function Home() {
             <SubPageEspaco name="2 - SubPageEspaco"></SubPageEspaco>
             <SubPageComoFunciona name="3 - SubPageComoFunciona"></SubPageComoFunciona>
             <SubPageFuncionalidades name="4 - SubPageFuncionalidades"></SubPageFuncionalidades>
+            <SubPagePortifolio name="5 - SubPagePortifolio"></SubPagePortifolio>
+
         </div>
         {/*
 
         
        
-        <SubPageFuncionalidades name="4 - SubPageFuncionalidades"></SubPageFuncionalidades>
-        <SubPagePortifolio name="5 - SubPagePortifolio"></SubPagePortifolio>
         <SubPageClientes name="6 - SubPageClientes"></SubPageClientes>
         <SubPageFaleConosco name="7 - SubPageFaleConosco"></SubPageFaleConosco>
         <SubPagePerguntas name="8 - SubPagePerguntas"></SubPagePerguntas>

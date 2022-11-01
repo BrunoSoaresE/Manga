@@ -1,4 +1,8 @@
-.error {
-    color: white;
-    background-color: rgb(200, 255, 0);
+.portifolioTitulo {
+   font-size: 3em;
+  }
+
+  .portifolioLogo{
+    width: 50%;
+    height: auto;
   }
