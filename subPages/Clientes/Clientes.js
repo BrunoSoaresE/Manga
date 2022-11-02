@@ -7,7 +7,7 @@ export function SubPageClientes(props) {
 
   return (
     <div className={styles.clienteContainer}>
-      <p  className={styles.clienteTitulo}>Clientes e Feedback</p>
+      <p  className={styles.clienteTitulo}>Clientes e <span  className={styles.clienteTituloSpan}>Feedback</span></p>
 
       <div className={styles.clienteList} >
         <div className={styles.clienteListScroll} >
@@ -23,7 +23,7 @@ export function SubPageClientes(props) {
         </div>
       </div>
       <p className={styles.clienteTexto}>A manga é uma agência de criação de sites com clientes satisfeitos espalhados pelo mundo inteiro. Atraves de uma equipe competente e organizada iremos fazer seu negocio decolar.</p>
-
+      
       <div className={styles.clienteList} >
         <div className={styles.clienteListScroll} >
           <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />
