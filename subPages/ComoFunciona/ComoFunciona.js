@@ -5,7 +5,7 @@ import styles from './ComoFunciona.module.css';
 
 export function SubPageComoFunciona(props) {
   return (
-    <div c>
+    <div className={styles.comoFunciona}>
       <p className={styles.comoFuncionaTitulo}>Veja como funciona o processo de criação de Sites.</p>
       <ul  className={styles.comoFuncionaUl}>
         <li className={styles.comoFuncionaLI}>

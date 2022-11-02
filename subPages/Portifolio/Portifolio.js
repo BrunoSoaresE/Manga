@@ -4,7 +4,7 @@ import styles from './Portifolio.module.css';
 
 export function SubPagePortifolio(props) {
   return (
-    <div >
+    <div className={styles.portifolio}>
       <h3 className={styles.portifolioTitulo}>Nosso <span className={styles.portifolioTituloSpan}>portifólio</span></h3>
       <p className={styles.portifolioTexto}>Descubra alguns sites desenvolvidos recentemente pela manga</p>
       <p className={styles.portifolioChamada}>Queremos você aqui também!</p>
