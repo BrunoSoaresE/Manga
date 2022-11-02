@@ -43,6 +43,10 @@
  padding: auto;
 }
 
+.RodapeHr{
+  display: none;
+}
+
 
 @media(max-width: 900px)
 {
@@ -53,15 +57,40 @@
   .logoImg {
     height: 20vh;
   }
+  .ContatoElen{
+    width: 100%;
+    margin-left: 15%;
+  } 
 }
 
 @media(max-width: 700px)
 {
+  .Rodape{
+    display: block;   
+    padding: 1vh;
+ 
+  }
   .RodapeDivTexto
-  {
+  {    
     display: none;
   }
-  .logoImg {
-    height: 15vh;
+
+  .logoImg {   
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+  }
+  .Contato{
+    margin-top: 2vh;
+  }
+  .ContatoElen{
+    width: 70%;
+    margin-left: 25%;
+  } 
+  .RodapeHr{
+    display: block;
+    width: 70%;
+    border: solid black 1px;
+
   }
 }
