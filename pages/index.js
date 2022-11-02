@@ -4,6 +4,7 @@ import React from 'react';
 import styles from '../styles.module.css';
 import { SubPageAppBar } from '../subPages/AppBar/AppBar';
 import { SubPageCabecalho } from '../subPages/Cabecalho/Cabecalho';
+import { SubPageClientes } from '../subPages/Clientes/Clientes';
 import { SubPageComoFunciona } from '../subPages/ComoFunciona/ComoFunciona';
 import { SubPageEspaco } from '../subPages/Espaco/Espaco';
 import { SubPageFuncionalidades } from '../subPages/Funcionalidades/Funcionalidades';
@@ -68,13 +69,13 @@ function Home() {
             <SubPageComoFunciona name="3 - SubPageComoFunciona"></SubPageComoFunciona>
             <SubPageFuncionalidades name="4 - SubPageFuncionalidades"></SubPageFuncionalidades>
             <SubPagePortifolio name="5 - SubPagePortifolio"></SubPagePortifolio>
+            <SubPageClientes name="6 - SubPageClientes"></SubPageClientes>
 
         </div>
         {/*
 
         
        
-        <SubPageClientes name="6 - SubPageClientes"></SubPageClientes>
         <SubPageFaleConosco name="7 - SubPageFaleConosco"></SubPageFaleConosco>
         <SubPagePerguntas name="8 - SubPagePerguntas"></SubPagePerguntas>
         <SubPageRodape name="9 - SubPageRodape"></SubPageRodape>*/}

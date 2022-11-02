@@ -1,8 +1,52 @@
 .portifolioTitulo {
-   font-size: 3em;
+  font-size: 3em;
+  text-align: center;
+}
+
+.portifolioTexto {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.portifolioChamada {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+.portifolioCardTitulo {
+  font-size: 2em;
+  text-align: center;
+}
+
+.portifolioLogo {
+  text-align: center;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 1vh;
+}
+
+
+
+
+
+.portifolioCard {
+  border: solid black 1px;
+  border-radius: 20%;
+  width: 30%;
+  display: inline-block;
+  margin: 1vw;
+}
+
+@media(max-width: 800px) {
+  .portifolioCard {
+    display: block;
+    width: 80%;
+    border: solid;
+    margin: 2vh auto;
   }
 
-  .portifolioLogo{
-    width: 50%;
-    height: auto;
-  }
+}
