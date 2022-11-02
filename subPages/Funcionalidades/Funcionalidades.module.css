@@ -5,6 +5,12 @@
 
 }
 
+.funcionalidadesTituloSpan {
+  color: #D76A03;
+
+}
+
+
 .funcionalidadesUl {
 
   align-items: center;
@@ -42,6 +48,8 @@
 .number{ 
   font-size: 50px;
   margin-right: 5%;
+  margin-left: 2vw;
+  color: #D76A03;
 }
 .span{
  position: relative;
@@ -52,11 +60,14 @@
   text-align: left;
   font-size: 1.4em;
   font-weight: bold;
+  color: rgb(37, 37, 37);
 }
 
 .p2{
     font-size: 1.1em;
   margin-left: 6vw;  
   text-align: justify;
+  color: rgb(58, 58, 58);
+
 
 }

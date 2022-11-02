@@ -5,13 +5,13 @@ import styles from './ComoFunciona.module.css';
 
 export function SubPageComoFunciona(props) {
   return (
-    <div>
+    <div c>
       <p className={styles.comoFuncionaTitulo}>Veja como funciona o processo de criação de Sites.</p>
       <ul  className={styles.comoFuncionaUl}>
         <li className={styles.comoFuncionaLI}>
-          <card>
+        <card className={styles.comoFuncionaCard}>
           <div className={styles.numberBox}>
-            <RiNumber1 className={styles.number} />
+            <RiNumber1 className={styles.number} />K
           </div>
             <p className={styles.p1}>Primeiro passo</p>
             <p className={styles.p2}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
@@ -19,9 +19,9 @@ export function SubPageComoFunciona(props) {
           </card>
         </li>
         <li className={styles.comoFuncionaLI}>
-          <card>
+          <card className={styles.comoFuncionaCard}>
           <div className={styles.numberBox}>
-            <RiNumber2 className={styles.number}/>
+            <RiNumber2 className={styles.number}/>K
           </div>
             <p className={styles.p1}>Segundo passo</p>
             <p className={styles.p2}>Línguas Estrangeiras, Área Restrita, Downloads de PDF, Meios de Pagamentos</p>
@@ -31,7 +31,7 @@ export function SubPageComoFunciona(props) {
         <li className={styles.comoFuncionaLI}>
           <card>
           <div className={styles.numberBox}>
-            <RiNumber3 className={styles.number} />
+            <RiNumber3 className={styles.number} />K
           </div>
             <p className={styles.p1}>Terceiro e ultimo passo</p>
             <p className={styles.p2}>Elaboração e Envio da Proposta, Emissão de Contrato, Aprovação do Layout, Agora é so aproveitar!</p>

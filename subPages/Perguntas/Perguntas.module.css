@@ -1,13 +1,19 @@
 .faleConosco {
-    text-align: center;   
-  }
-  
-  .faleConoscoTitulo {
-    font-size: 3em;
-   
-  }
-  .faleConoscoAccordion {
-    background: red;
-    font-size: 2em;
+  text-align: center;
+  position: relative;
+  top: -5vh;
+}
 
-  }
+.faleConoscoTitulo {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.faleConoscoTituloSpan {
+  color: #D76A03;
+}
+
+.faleConoscoAccordion {
+  position: relative;
+  top: -5vh;
+}

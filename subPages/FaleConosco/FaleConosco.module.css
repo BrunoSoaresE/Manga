@@ -2,16 +2,21 @@
   text-align: center;
   padding: 2vh;
   display: flex;
-
+  background: #D76A03;
+  background-color: #D76A03; /* For browsers that do not support gradients */
+  background-image: linear-gradient(135deg, #BF3100 , #D76A03,#D76A03,#D76A03,#BF3100);
+  color: white;
+  
 }
 
 .FaleConoscoTitulo {
   font-size: 2em;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 0.2vw;
 }
 
 .FaleConoscoTexto {
-  font-size: 1.2em;
+  font-size: 1.25em;
 
 }
 
@@ -24,9 +29,12 @@
   width: 50%;
   margin: auto;
   max-width: 800px;
-  border: solid black 2px;
-  border-radius: 2vw;
+  border-radius: 5vw;
   padding: 2vh;
+  color: black;
+  background: white;
+  background-color: white; /* For browsers that do not support gradients */
+
 }
 
 @media(max-width: 800px) {
@@ -45,6 +53,7 @@
 .FaleConoscoFormTexto {
   padding: 1vw;
   font-size: 1.2em;
+  color: rgb(58, 58, 58);
 }
 
 .FaleConoscoFormInput {
@@ -53,17 +62,20 @@
   height: 40px;
   background: white;
   border: none;
+  border-bottom: solid rgb(218, 218, 218) 2px; 
 
 }
 
 .btnFaleConosco {
   text-align: center;
   cursor: pointer;
-  font-size: 1.6em;
-  background-color: #34af23;
+  font-size: 1.3em;
+  color: white;
+  background-color: #D76A03;
   width: 70%;
   max-width: 400px;
   margin: auto;
   border-radius: 15px;
   padding: 0.5vh;
+  margin-bottom: 5vh;
 }

@@ -4,7 +4,7 @@ import styles from './Funcionalidades.module.css';
 export function SubPageFuncionalidades(props) {
   return (
     <div>
-      <p className={styles.funcionalidadesTitulo}>O que faremos por voce</p>
+      <p className={styles.funcionalidadesTitulo}>O que faremos <span className={styles.funcionalidadesTituloSpan}>por você!</span></p>
       <ul className={styles.funcionalidadesUl}>
         <li className={styles.funcionalidadesLI}>
           <div className={styles.card}>

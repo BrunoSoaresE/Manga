@@ -5,11 +5,20 @@
 }
 
 .clienteTitulo{
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bold;
 }
 
+.clienteTituloSpan{
+  color: #D76A03;
+}
 
+.clienteTexto{
+  font-size: 1.2em;
+  color: rgb(58, 58, 58);
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
 
 .clienteList{
   overflow-x: scroll;
@@ -19,7 +28,6 @@
 
 .clienteListScroll{
   width: calc(37vw * 12 );
-
 }
 .clienteListLogo{
   width: 35vw;
