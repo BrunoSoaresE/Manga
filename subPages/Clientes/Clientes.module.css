@@ -1,4 +1,20 @@
-.error {
-    color: white;
-    background-color: rgb(255, 0, 128);
+.clienteContainer {
+    width: 100%;
+
   }
+
+.clienteList{
+  overflow-x: scroll;
+  max-width: 100%;
+  
+}
+
+.clienteListScroll{
+  width: calc(37vw * 12 );
+
+}
+.clienteListLogo{
+  width: 35vw;
+  margin: 1vw;
+  height: auto;
+}

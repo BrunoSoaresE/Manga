@@ -3,6 +3,8 @@
     min-height: 150vh;
     overflow-x: auto;    
     width: 100%;
+    scroll-behavior: smooth;
+
   }
 
   .appmodulos{
