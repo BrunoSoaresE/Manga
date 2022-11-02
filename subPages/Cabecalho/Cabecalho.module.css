@@ -14,8 +14,6 @@
   .homeCabecalho {  
     height: 42vh;
   }
-  
- 
 }
 
 
@@ -23,7 +21,7 @@
 .tituloCabecalho {
   padding-top: 2vh;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: bold;
 }
 
