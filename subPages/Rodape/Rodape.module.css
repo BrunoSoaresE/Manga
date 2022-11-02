@@ -1,4 +1,67 @@
-.error {
-    color: white;
-    background-color: red;
+.Rodape {
+  display: flex;
+  height: 30vh;
+}
+
+.logoImg {
+  position: relative;
+  left: 0;
+  margin: auto;
+  width: auto;
+  height: 25vh;
+}
+
+
+.Contato {
+  text-align: center;
+  margin: auto auto auto 1px;
+}
+.ContatoTitulo {
+  font-size: 2em;
+}
+.ContatoElen {
+  font-size: 1.5em;
+  text-align: left;
+}
+.ContatoElenIcon {
+  font-size: 1.1em;
+  position: relative;
+  bottom: -4px;
+  margin-right: 1vw;
+
+}
+
+.RodapeDivTexto{
+  width: 25%;
+  border-right: solid black 1px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  padding: 2vw;
+}
+.RodapeTexto{
+ padding: auto;
+}
+
+
+@media(max-width: 900px)
+{
+  .RodapeDivTexto
+  {
+    display: none;
   }
+  .logoImg {
+    height: 20vh;
+  }
+}
+
+@media(max-width: 700px)
+{
+  .RodapeDivTexto
+  {
+    display: none;
+  }
+  .logoImg {
+    height: 15vh;
+  }
+}

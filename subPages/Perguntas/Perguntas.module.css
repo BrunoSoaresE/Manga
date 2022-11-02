@@ -1,4 +1,13 @@
-.error {
-    color: white;
-    background-color: rgb(0, 255, 0);
+.faleConosco {
+    text-align: center;   
+  }
+  
+  .faleConoscoTitulo {
+    font-size: 3em;
+   
+  }
+  .faleConoscoAccordion {
+    background: red;
+    font-size: 2em;
+
   }

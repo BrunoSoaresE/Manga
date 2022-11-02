@@ -1,7 +1,14 @@
 .clienteContainer {
-    width: 100%;
+  width: 100%;
+  text-align: center;
 
-  }
+}
+
+.clienteTitulo{
+  font-size: 3em;
+}
+
+
 
 .clienteList{
   overflow-x: scroll;
