@@ -1,12 +1,53 @@
-import { RiNumber1, RiNumber2, RiNumber3 } from "react-icons/ri";
 import styles from './ComoFunciona.module.css';
 
 
-
 export function SubPageComoFunciona(props) {
+  VanillaTilt.init(document.querySelectorAll(".cardElen"), {
+		max: 25,
+		speed: 400,
+    glare:true,
+    "max-glare": 1
+	});
+	
+
+
   return (
     <div className={styles.comoFunciona}>
+
+
+
+
       <p className={styles.comoFuncionaTitulo}>Veja como funciona o processo de criação de Sites.</p>
+      <div className={styles.CardList}>
+        <div className={`${"cardElen"} ${styles.Card}`}>
+          <div className={styles.Content}>
+            <h3>01</h3>
+            <h4>Passo um</h4>
+            <p>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+
+          </div>
+        </div>
+        <div className={`${"cardElen"} ${"cardElen2"} ${styles.Card}`}>
+          <div className={styles.Content}>
+            <h3>02</h3>
+            <h4>Passo dois</h4>
+            <p>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+
+          </div>
+        </div>
+        <div className={`${"cardElen"} ${"cardElen3"} ${styles.Card}`}>
+          <div className={styles.Content}>
+            <h3>02</h3>
+            <h4>Passo tres</h4>
+            <p>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+
+          </div>
+        </div>
+      </div>
+
+
+      {/*
+
       <div  className={styles.comoFuncionaUl}>
         <div className={styles.comoFuncionaLI}>
         <card className={styles.comoFuncionaCard}>
@@ -39,6 +80,7 @@ export function SubPageComoFunciona(props) {
           </card>
         </div>
       </div>
+       */}
     </div>
   )
 }
