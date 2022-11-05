@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import AccordionUI from "../components/AccordionUI";
 
 const Accordion = () => {
@@ -57,6 +57,7 @@ const Accordion = () => {
       {data.map((data) => {
         return (
           <AccordionUI
+            key={data.id}
             title={data.question}
             Id={data.id}
             children={data.answer}
