@@ -1,6 +1,6 @@
 import styles from './ComoFunciona.module.css';
 
-export function SubPageComoFunciona(props) {
+export function SubPageComoFunciona() {
  /*
   const refCard1 = useRef();
   const refCard2 = useRef();
