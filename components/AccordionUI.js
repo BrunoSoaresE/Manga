@@ -1,6 +1,6 @@
 import styles from './AccordionUI.module.css';
 
-const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
+const AccordionUI = ({key, title, children, Id, Index, setIndex }) => {
   const handleSetIndex = (Id) => {    
     Index !== Id && setIndex(Id);
     Index == Id && setIndex(null);
@@ -8,7 +8,7 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
 
   return (
     <>
-      <div  onClick={() => handleSetIndex(Id)}>
+      <div key={key} onClick={() => handleSetIndex(Id)}>
         <div className={styles.acordionPergunta} >
           <p className={`${"destaque"} ${"left"} ${styles.acordionTitle}`}>
             {title}
