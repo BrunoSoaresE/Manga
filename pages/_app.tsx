@@ -5,6 +5,10 @@ import '../styles/globals.css'
 export default function App({ Component, pageProps }: AppProps) {
 
   return <>
+  
+
+    <Component {...pageProps} />
+    
     <Script
       src="../public\vanilla-tilt.js"
       strategy="beforeInteractive"
@@ -12,7 +16,5 @@ export default function App({ Component, pageProps }: AppProps) {
         console.log('Script has loaded')
       }}
     />
-
-
-    <Component {...pageProps} /> </>
+ </>
 }
