@@ -1,20 +1,20 @@
 import Image from 'next/image';
-import React from "react";
-import trabalho from '../../assets/images/trabalho.png';
+import trabalho from '../../public/assets/images/trabalho.png';
 import styles from './Clientes.module.css';
 
 export function SubPageClientes(props) {
 
   return (
     <div className={styles.clienteContainer}>
-      <p  className={styles.clienteTitulo}>Clientes e <span  className={styles.clienteTituloSpan}>Feedback</span></p>
+      <h2  className={styles.clienteTitulo}>Clientes e <span  className={styles.clienteTituloSpan}>Feedback</span></h2>
 
       <div className={styles.clienteList} >
         <div className={styles.clienteListScroll} >
           <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />
           <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />
           <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />
-          <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />          <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />
+          <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />       
+          <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />
           <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />
           <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />
           <Image src={trabalho} className={styles.clienteListLogo} alt="Logo TecManga" />

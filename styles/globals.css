@@ -1,0 +1,80 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+textarea,input,div,p,h1,h2,h3,span{
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+H1,H2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+p {
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+
+}
+p.destaque {
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+}
+p.destaque.left {
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: left;
+}
+
+
+@media(max-width: 800px) {
+  H1,  H2 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.3em;
+  }
+  p.destaque {
+    font-size: 1.5em;
+  }
+}
+
+@media(max-width: 400px) {
+  H1,  H2 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  p.destaque {
+    font-size: 1.4em;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}

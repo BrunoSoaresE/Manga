@@ -1,126 +1,37 @@
 .Rodape {
+  border-top: solid #BF3100 1px;
   display: flex;
-  background: #D76A03;
-  background-color: #D76A03; /* For browsers that do not support gradients */
+ /* background: #D76A03;
+  background-color: #D76A03; 
   background-image: linear-gradient(135deg, #BF3100 , #D76A03,#D76A03,#D76A03,#BF3100);
-  color:white;
+  color:white;*/
+  color:#D76A03
 }
 
-.logoImg {
-  margin: auto;
-  width: 25%;
-  height: auto;
-}
-
-
-.Contato {
-  text-align: center;
-  margin: auto auto auto 1px;
-  padding-bottom: 3vh;
-
-  
-}
-.ContatoTitulo {
-  font-size: 2em;
-}
-.ContatoElen {
-  font-size: 2em;
-  text-align: left;
-}
-.ContatoElenIcon {
-  font-size: 1.1em;
-  margin-right: 1vw;
-
-}
-
-.RodapeDivTexto{
-  width: 25%;
-  border-right: solid rgb(129, 151, 4) 2px;
-  margin: auto;
-  text-align: center;
-  padding: 2vw;
+.DevPor {
   font-size: 1.4em;
-}
-.RodapeTexto{
- padding: auto;
-}
-
-.RodapeHr{
-  display: none;
+  text-align: left;
+  margin: auto;
 }
 
-
-@media(max-width: 900px)
-{
-  
-  .RodapeDivTexto
-  {
-    display: none;
-  }
-  .logoImg {
-    width: 40vw;
-    height: auto;
-  }
-  .ContatoElen{
-     width: 50vw;
-     margin: auto;
-  } 
-  .ContatoElen{
-    font-size: 1.8em;
-  }
+.Contato{
+  margin: auto;
 }
 
-@media(max-width: 700px)
-{
-  .Rodape{
-    display: block;   
-  }
-  .RodapeDivTexto
-  {    
-    display: none;
-  }
-  .RodapeHr{
-    display: block;
-    width: 70%;
-    border: solid rgb(129, 151, 4) 1px;
-  }
-  .Contato{
-    margin-left: 25vw;
-  }
-
-  .ContatoElen {
-    font-size: 1.2em;
-    text-align: left;
-  }
-  .ContatoElenIcon {
-    margin-left: -5vw;  
-  }
-  .logoImg {   
-    width: 65%;
-    height: auto;
-    margin-left: 17%;
-  }
+.ContatoElenIcon{
+  font-size: 1.7em;
+  margin-left: 2vw;
 }
 
-@media(max-width: 400px)
-{
+.TecManga{
+  position: relative;
+  bottom: 1.2vh;
 
-  .Contato{
-    margin-left: 15vw;
-  }
-  .ContatoElen {
-    background: red;
-    font-size: 1em;
-    width: 60vw;
-    text-align: left;
-  }
-  .ContatoElenIcon {
-    margin-left: -5vw;  
-  }
-  .logoImg {   
-    width: 65%;
-    height: auto;
-    margin-left: 17%;
-  }
-  
+}
+.LogoTecManga{
+  height: 5vh;
+  width: auto;
+  margin-left: 1vw;
+  margin-top: 0.4vh;
+  margin-bottom: 0.2vh;
 }

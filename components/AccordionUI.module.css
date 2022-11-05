@@ -1,49 +1,22 @@
-.acordionTitle {
-  font-size: 2em; 
-  text-align: left;
-  margin-left: 5vw;
-}
-
-.acordionResposta {
-  font-size: 1.4em; 
+.acordionPergunta { 
   margin-left: 5vw;
   margin-right: 5vw;
+  color: #D76A03;
+}
+.acordionTitle{
+  margin-bottom: 0px;
+}
+.acordionResposta { 
+  margin-left: 5vw;
+  margin-right: 5vw;
+
   text-align: justify;
   color: rgb(58, 58, 58);
 }
 
-.acordionPergunta{
-  margin: 1vh;
-  color: #D76A03;
-
-}
-
 .acordionHR{
   width: 90%;
-  border: 1px solid rgba(210, 210, 210, 1);
- 
-}
-
-@media(max-width: 800px) { 
-  .acordionTitle {
-    font-size: 2em;   
-  }
-  
-  .acordionResposta {
-    font-size: 1.3em; 
-  }
-  
-}
-
-@media(max-width: 400px) { 
-  .acordionTitle {
-    font-size: 2em;   
-  }
-  
-  .acordionResposta {
-    font-size: 1.2em; 
-  }
-  
+  border: 1px solid rgba(210, 210, 210, 1); 
 }
 
 

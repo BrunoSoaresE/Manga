@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { CgMenu } from "react-icons/cg";
-import logo from '../../assets/logos/LogoOficialVerdeSemBorda.png';
+import logo from '../../public/assets/logos/LogoOficialVerdeSemBorda.png';
 import styles from './AppBar.module.css';
 export function SubPageAppBar(props) {
 
@@ -28,7 +28,7 @@ console.log(logo);
 
 
   return (
-    <>
+    <div className={`${styles.appBarr}`}>
 
       <div className={`${styles.menuLateral}`} ref={refSubPageMenuLateral}>
         <div className={styles.MLEspace} ref={refMLEspace}></div>
@@ -60,7 +60,7 @@ console.log(logo);
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 }
 

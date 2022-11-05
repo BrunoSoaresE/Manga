@@ -1,11 +1,11 @@
 .faleConosco {
   text-align: center;
-
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
-
-.faleConoscoTitulo {
-  font-size: 3em;
-  font-weight: bold;
+.faleConoscoTitulo{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .faleConoscoTituloSpan {
@@ -14,14 +14,3 @@
 
 
 
-@media(max-width: 800px) {
-  .faleConoscoTitulo {
-    font-size: 2.5em;
-  }
-}
-
-@media(max-width: 400px) {
-  .faleConoscoTitulo {
-    font-size: 2em;
-  }
-}

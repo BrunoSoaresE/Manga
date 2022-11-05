@@ -1,29 +1,15 @@
 .portifolio{
   text-align: center;
 }
-.portifolioTitulo {
-  font-size: 3em;
 
-}
 
 .portifolioTituloSpan {
   color: #D76A03;
 }
 
 .portifolioTexto {
-  font-size: 1.4em;
-  text-align: center;
-  margin-top: -3vh;
   color: rgb(58, 58, 58);
 }
-
-.portifolioChamada {
-  font-size: 1.5em;
-  font-weight: bold;
-  text-align: center;
-}
-
-
 
 .portifolioCardTitulo {
   font-size: 2em;
@@ -39,10 +25,6 @@
   margin-left: 10%;
   margin-bottom: 1vh;
 }
-
-
-
-
 
 .portifolioCard {
   border: solid #D76A03 2px;
@@ -60,35 +42,5 @@
     width: 80%;
     margin: 2vh auto;
   }
-
-
-  .portifolioTitulo {
-    font-size: 2.5em;
-  }  
-
-  .portifolioTexto {
-    font-size: 1.3em;  
-  }
-  
-  .portifolioChamada {
-    font-size: 1.4em;  
-  }
-  
-
 }
 
-@media(max-width: 400px) {
-  .portifolioTitulo {
-    font-size: 2em;
-  }  
-
-  .portifolioTexto {
-    font-size: 1.2em;  
-  }
-  
-  .portifolioChamada {
-    font-size: 1.3em;  
-  }
-  
-
-}

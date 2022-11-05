@@ -1,4 +1,3 @@
-import React from "react";
 import styles from './AccordionUI.module.css';
 
 const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
@@ -9,25 +8,23 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
 
   return (
     <>
-    <div className={styles.teste}>
       <div  onClick={() => handleSetIndex(Id)}>
         <div className={styles.acordionPergunta} >
-          <div className={styles.acordionTitle}>
+          <p className={`${"destaque"} ${"left"} ${styles.acordionTitle}`}>
             {title}
-          </div>
+          </p>
         </div>
 
 
       </div>
 
       {Index === Id && (
-        <div  onClick={() => handleSetIndex(Id)} className={styles.acordionResposta}>
+        <p  onClick={() => handleSetIndex(Id)} className={styles.acordionResposta}>
           {children}
-        </div>
+        </p>
       )}
 
       <hr className={styles.acordionHR}></hr>
-      </div>
     </>
   );
 };

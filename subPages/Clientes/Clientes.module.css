@@ -3,20 +3,19 @@
   width: 100%;
 }
 
-.clienteTitulo {
-  font-size: 3em;
-  font-weight: bold;
+.clienteTitulo{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
+
 
 .clienteTituloSpan {
   color: #D76A03;
 }
 
 .clienteTexto {
-  font-size: 1.4em;
   color: rgb(58, 58, 58);
-  margin-left: 3vw;
-  margin-right: 3vw;
+  margin: auto;
   width: 90%;
 }
 
@@ -37,24 +36,6 @@
 
 }
 
-
-@media(max-width: 800px) {
-  .clienteTitulo {
-    font-size: 2.5em;
-  }
-  .clienteTexto {
-    font-size: 1.3em;  
-  }
-}
-
-@media(max-width: 400px) {
-  .clienteTitulo {
-    font-size: 2em;
-  }
-  .clienteTexto {
-    font-size: 1.2em;  
-  }
-}
 
 
 

@@ -1,20 +1,15 @@
 .espaco {
   text-align: center;
   padding: 4vw;
-}
-.espacoTitulo {
-  font-size: 3em;
-  font-weight: bold;
   color: #D76A03;
 }
+
 .espacoAutor{
   font-size: 0.5em;
   font-weight: normal;
 }
 
 .espacoP {
-  font-size: 1.4em;
-  font-weight: normal;
   color: rgb(58, 58, 58);
 }
 
@@ -45,30 +40,15 @@
     width: 80%; 
     height: auto;
   }
-
-  .espacoTitulo {
-    font-size: 2.5em;
-  }
   .espacoAutor{
     font-size: 0.5em;   
-  }
-  
-  .espacoP {
-    font-size: 1.3em;
-  }
+  } 
+
 }
 
 @media(max-width: 400px)
 {
- 
-  .espacoTitulo {
-    font-size: 2em;
-  }
   .espacoAutor{
     font-size: 0.5em;   
-  }
-  
-  .espacoP {
-    font-size: 1.2em;
-  }
+  }  
 }

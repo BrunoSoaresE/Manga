@@ -6,7 +6,7 @@ export function SubPagePerguntas(props) {
   
   return (
     <div className={styles.faleConosco}>
-      <p className={styles.faleConoscoTitulo}>Perguntas <span className={styles.faleConoscoTituloSpan}>frequentes</span></p>
+      <h2 className={styles.faleConoscoTitulo}>Perguntas <span className={styles.faleConoscoTituloSpan}>frequentes</span></h2>
              <Accordion   />
 
 

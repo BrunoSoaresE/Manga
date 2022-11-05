@@ -1,12 +1,7 @@
-.funcionalidade{
+.funcionalidades{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
-
-.funcionalidadesTitulo {
-  text-align: center;
-  font-size: 3em;
-  font-weight: bold;
-}
-
 
 .funcionalidadesTituloSpan {
   color: #D76A03;
@@ -43,14 +38,14 @@
  top:-20px
 }
 
-.p1{  
+.FuncionalideLiTitulo{  
   text-align: left;
   font-size: 2em;
   font-weight: bold;
   color: rgb(37, 37, 37);
 }
 
-.p2{
+.FuncionalideLiDesc{
     font-size: 1.4em;
     margin-left: 6vw;  
     text-align: justify;
@@ -66,14 +61,11 @@
     width: 99%; 
   
   }
-  
-  .funcionalidadesTitulo {
-    font-size: 2.5em;
-  }  
-  .p1{  
+
+  .FuncionalideLiTitulo{  
     font-size: 1.7em;
   }  
-  .p2{
+  .FuncionalideLiDesc{
       font-size: 1.3em; 
   }
   
@@ -84,20 +76,16 @@
 {
   .card {
     display: block; 
-    width: 99%; 
-  
+    width: 99%;   
   }
   
-  .funcionalidadesTitulo {
-    font-size: 2em;
-  }  
-  .p1{  
+
+  .FuncionalideLiTitulo{  
     font-size: 1.4em;
   }  
-  .p2{
+  .FuncionalideLiDesc{
       font-size: 1.2em; 
-  }
-  
+  }  
 
 }
 
