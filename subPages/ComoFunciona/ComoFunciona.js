@@ -1,14 +1,15 @@
+import { useEffect, useRef } from "react";
+import VanillaTilt from 'vanilla-tilt';
 import styles from './ComoFunciona.module.css';
 
-export function SubPageComoFunciona() {
- /*
+export function SubPageComoFunciona(props) {
   const refCard1 = useRef();
   const refCard2 = useRef();
   const refCard3 = useRef();
   useEffect(() => {
     console.log()
 
-    VanillaTilt.init(refCard1.current, {
+    VanillaTilt.init([refCard1.current,refCard2.current,refCard3.current], {
       max: 25,
       speed: 400,
       glare:true,
@@ -18,7 +19,7 @@ export function SubPageComoFunciona() {
     
     
   },[])
-*/
+
 
 
 
@@ -30,7 +31,7 @@ export function SubPageComoFunciona() {
 
       <p className={styles.comoFuncionaTitulo}>Veja como funciona o processo de criação de Sites.</p>
       <div className={styles.CardList}>
-        <div className={`${styles.Card}`} >
+        <div className={`${styles.Card}`} ref={refCard1}>
           <div className={styles.Content}>
             <h3>01</h3>
             <h4>Passo um</h4>
@@ -38,7 +39,7 @@ export function SubPageComoFunciona() {
 
           </div>
         </div>
-        <div className={`${styles.Card}`}  >
+        <div className={`${styles.Card}`}  ref={refCard2}>
           <div className={styles.Content}>
             <h3>02</h3>
             <h4>Passo dois</h4>
@@ -46,7 +47,7 @@ export function SubPageComoFunciona() {
 
           </div>
         </div>
-        <div className={`${styles.Card}`}  >
+        <div className={`${styles.Card}`}  ref={refCard3}>
           <div className={styles.Content}>
             <h3>02</h3>
             <h4>Passo tres</h4>
