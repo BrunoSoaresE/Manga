@@ -22,7 +22,7 @@ export default function Home() {
         <meta property="og:description" content="Seu site está próximo de se tornar realidade a TecManga vai ajuda-lo a tornar seu sonho realidade sem dor de cabeça." />
 
         <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/assets/logos/LogoBola.png' />
 
         <meta name="author" content="TecManga" />
         <meta name="copyright" content="© 2022 TecManga" />

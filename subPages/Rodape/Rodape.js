@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import { BsInstagram, BsMailbox, BsWhatsapp } from "react-icons/bs";
-import logo from '../../public/assets/logos/LogoMangaLaranja.png';
 import styles from './Rodape.module.css';
 
 
@@ -13,9 +11,8 @@ export function SubPageRodape(props) {
         rel="noopener noreferrer"
         className={`${styles.DevPor}`}
       >
-        <span className={styles.TecManga}>  Desenvolvido por
+        <span className={styles.TecManga}>  Copyright © 2022 | TecManga
         </span>
-            <Image src={logo}  alt="TecManga Logo"  className={styles.LogoTecManga} />
            
       
       </a>
