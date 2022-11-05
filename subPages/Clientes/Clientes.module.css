@@ -4,7 +4,7 @@
 }
 
 .clienteTitulo {
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: bold;
 }
 
@@ -13,10 +13,11 @@
 }
 
 .clienteTexto {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: rgb(58, 58, 58);
   margin-left: 3vw;
   margin-right: 3vw;
+  width: 90%;
 }
 
 .clienteList {
@@ -30,7 +31,30 @@
 }
 
 .clienteListLogo {
-  width: 35vw;
-  margin: 1vw;
   height: auto;
+  width: 40vw;
+  margin: 1vw;
+
 }
+
+
+@media(max-width: 800px) {
+  .clienteTitulo {
+    font-size: 2.5em;
+  }
+  .clienteTexto {
+    font-size: 1.3em;  
+  }
+}
+
+@media(max-width: 400px) {
+  .clienteTitulo {
+    font-size: 2em;
+  }
+  .clienteTexto {
+    font-size: 1.2em;  
+  }
+}
+
+
+

@@ -1,11 +1,12 @@
 .funcionalidade{
 }
+
 .funcionalidadesTitulo {
   text-align: center;
   font-size: 3em;
   font-weight: bold;
-
 }
+
 
 .funcionalidadesTituloSpan {
   color: #D76A03;
@@ -13,37 +14,22 @@
 }
 
 
-.funcionalidadesUl {
+.funcionalidadesUl {  
+  padding-left: 4vw;
+  padding-right: 5vw;
 
   align-items: center;
-  text-align: center;
+  text-align: justify;
 }
 
 .funcionalidadesLI {
-  margin: auto;
   list-style: none;
-  position: relative;
-  left: -5vw;
 }
 
 .card {  
   padding: 1vw;
   width: 46%;
   display: inline-block;
-}
-
-
-@media(max-width: 800px)
-{
-  .card {
-    display: block; 
-    width: 99%; 
-  
-  }
-  /*
-  .funcionalidadesLI {
-    width: 100%;
-  }*/
 }
 
 .number{ 
@@ -59,16 +45,59 @@
 
 .p1{  
   text-align: left;
-  font-size: 1.4em;
+  font-size: 2em;
   font-weight: bold;
   color: rgb(37, 37, 37);
 }
 
 .p2{
-    font-size: 1.1em;
-  margin-left: 6vw;  
-  text-align: justify;
-  color: rgb(58, 58, 58);
+    font-size: 1.4em;
+    margin-left: 6vw;  
+    text-align: justify;
+    color: rgb(58, 58, 58);
+}
 
+
+
+@media(max-width: 800px)
+{
+  .card {
+    display: block; 
+    width: 99%; 
+  
+  }
+  
+  .funcionalidadesTitulo {
+    font-size: 2.5em;
+  }  
+  .p1{  
+    font-size: 1.7em;
+  }  
+  .p2{
+      font-size: 1.3em; 
+  }
+  
 
 }
+
+@media(max-width: 400px)
+{
+  .card {
+    display: block; 
+    width: 99%; 
+  
+  }
+  
+  .funcionalidadesTitulo {
+    font-size: 2em;
+  }  
+  .p1{  
+    font-size: 1.4em;
+  }  
+  .p2{
+      font-size: 1.2em; 
+  }
+  
+
+}
+

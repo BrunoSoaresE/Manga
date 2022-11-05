@@ -5,12 +5,11 @@
 }
 
 .acordionResposta {
-  font-size: 1.5em; 
+  font-size: 1.4em; 
   margin-left: 5vw;
   margin-right: 5vw;
   text-align: justify;
   color: rgb(58, 58, 58);
-
 }
 
 .acordionPergunta{
@@ -24,4 +23,28 @@
   border: 1px solid rgba(210, 210, 210, 1);
  
 }
+
+@media(max-width: 800px) { 
+  .acordionTitle {
+    font-size: 2em;   
+  }
+  
+  .acordionResposta {
+    font-size: 1.3em; 
+  }
+  
+}
+
+@media(max-width: 400px) { 
+  .acordionTitle {
+    font-size: 2em;   
+  }
+  
+  .acordionResposta {
+    font-size: 1.2em; 
+  }
+  
+}
+
+
 

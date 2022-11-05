@@ -1,23 +1,21 @@
 .FaleConosco {
   text-align: center;
-  padding: 2vh;
   display: flex;
   background: #D76A03;
   background-color: #D76A03; /* For browsers that do not support gradients */
   background-image: linear-gradient(135deg, #BF3100 , #D76A03,#D76A03,#D76A03,#BF3100);
-  color: white;
-  
+  color: white;  
+  padding: 1vh;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
 }
 
 .FaleConoscoTitulo {
-  font-size: 2em;
-  font-weight: 600;
-  letter-spacing: 0.2vw;
+  font-size: 3em;
+  font-weight: bold;
 }
-
 .FaleConoscoTexto {
-  font-size: 1.25em;
-
+  font-size: 1.4em;
 }
 
 .FaleConoscoDiv {
@@ -37,22 +35,11 @@
 
 }
 
-@media(max-width: 800px) {
-  .FaleConosco{
-    display: block;
-  }
-  .FaleConoscoDiv {   
-    width: 90%;
-  }
 
-  .FaleConoscoForm {
-    width: 80%;
-  }
-}
 
 .FaleConoscoFormTexto {
   padding: 1vw;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: rgb(58, 58, 58);
 }
 
@@ -63,13 +50,14 @@
   background: white;
   border: none;
   border-bottom: solid rgb(218, 218, 218) 2px; 
+  font-size: 1.1em;
 
 }
 
 .btnFaleConosco {
   text-align: center;
   cursor: pointer;
-  font-size: 1.3em;
+  font-size: 1.4em;
   color: white;
   background-color: #D76A03;
   width: 70%;
@@ -77,5 +65,61 @@
   margin: auto;
   border-radius: 15px;
   padding: 0.5vh;
-  margin-bottom: 5vh;
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+}
+
+
+@media(max-width: 800px) {
+  .FaleConosco{
+    display: block;
+  }
+  .FaleConoscoDiv {   
+    width: 90%;
+  }
+  .FaleConoscoForm {
+    width: 80%;
+  }
+
+
+  .FaleConoscoTitulo {
+    font-size: 2.5em;
+  }
+  .FaleConoscoTexto {
+    font-size: 1.3em;
+  }
+
+  .FaleConoscoFormTexto {
+    font-size: 1.3em;
+  }
+  .FaleConoscoFormInput {
+    font-size: 1em;  
+  }
+  .btnFaleConosco{
+    font-size: 1.3em;
+  }
+}
+
+
+@media(max-width: 400px) {
+
+
+  .FaleConoscoTitulo {
+    font-size: 2em;
+  }
+  .FaleConoscoTexto {
+    font-size: 1.2em;
+  }
+
+  .FaleConoscoFormTexto {
+    font-size: 1.2em;
+  }
+  .btnFaleConosco{
+    font-size: 1.2em;
+  }
+  .FaleConoscoFormInput {
+    font-size: 0.9em;
+  
+  }
+  
 }

@@ -1,13 +1,9 @@
 .espaco {
   text-align: center;
-  padding-top: 4.5vh;
-  padding-right: 2vw;
-
+  padding: 4vw;
 }
-
-
 .espacoTitulo {
-  font-size: 2.3em;
+  font-size: 3em;
   font-weight: bold;
   color: #D76A03;
 }
@@ -17,10 +13,9 @@
 }
 
 .espacoP {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: normal;
   color: rgb(58, 58, 58);
-
 }
 
 .espacoUL {
@@ -28,7 +23,6 @@
   display: flex;
   gap: 30px;
   align-items: center;
-
 }
 
 .espacoLI {
@@ -50,5 +44,31 @@
   .trabalho {
     width: 80%; 
     height: auto;
+  }
+
+  .espacoTitulo {
+    font-size: 2.5em;
+  }
+  .espacoAutor{
+    font-size: 0.5em;   
+  }
+  
+  .espacoP {
+    font-size: 1.3em;
+  }
+}
+
+@media(max-width: 400px)
+{
+ 
+  .espacoTitulo {
+    font-size: 2em;
+  }
+  .espacoAutor{
+    font-size: 0.5em;   
+  }
+  
+  .espacoP {
+    font-size: 1.2em;
   }
 }

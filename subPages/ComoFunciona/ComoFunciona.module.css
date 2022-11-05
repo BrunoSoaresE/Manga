@@ -3,7 +3,7 @@
 
 .comoFuncionaTitulo {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: bold;
   color: #D76A03;
 
@@ -33,34 +33,6 @@
   color: white;
 }
 
-@media(max-width: 800px) {
-  .comoFuncionaUl {
-    display: block;
-  }
-
-  .comoFuncionaLI {
-    width: 90%;
-    margin-left: 2%;
-  }
-  
-
-
-}
-
-
-@media(max-width: 500px) {
-
-  
-  .comoFuncionaLI {
-
-    margin-right: 0.5vw;
-    margin-left: 0.5vw;
- 
-  }
-
-}
-
-
 .numberBox {
   border: solid white 7px;
   width: 50px;
@@ -78,8 +50,6 @@
 .p1 {
   font-size: 1.8em;
   font-weight: 600;
-  letter-spacing: 0.4vw;
-
 }
 
 .p2 {
@@ -89,6 +59,35 @@
 .p3 {
   font-size: 1.3em;
   font-weight: 600;
-  letter-spacing: 0.2vw;
 
 }
+
+@media(max-width: 800px) {
+  .comoFuncionaUl {
+    display: block;
+  }
+  .comoFuncionaLI {
+    width: 90%;
+    margin-left: 2%;
+  }
+  .comoFuncionaTitulo {
+    font-size: 2.5em;
+  
+  }
+}
+
+@media(max-width: 500px) {
+  
+  .comoFuncionaLI {
+    margin-right: 0.5vw;
+    margin-left: 0.5vw; 
+  }
+}
+@media(max-width: 400px) {
+
+  .comoFuncionaTitulo {
+    font-size: 2em;  
+  } 
+}
+
+

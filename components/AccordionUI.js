@@ -9,7 +9,8 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
 
   return (
     <>
-      <div onClick={() => handleSetIndex(Id)}>
+    <div className={styles.teste}>
+      <div  onClick={() => handleSetIndex(Id)}>
         <div className={styles.acordionPergunta} >
           <div className={styles.acordionTitle}>
             {title}
@@ -26,6 +27,7 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
       )}
 
       <hr className={styles.acordionHR}></hr>
+      </div>
     </>
   );
 };

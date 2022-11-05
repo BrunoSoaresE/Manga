@@ -1,15 +1,12 @@
 .Rodape {
   display: flex;
-  height: 40vh;
   background: #D76A03;
   background-color: #D76A03; /* For browsers that do not support gradients */
   background-image: linear-gradient(135deg, #BF3100 , #D76A03,#D76A03,#D76A03,#BF3100);
-  color:white
+  color:white;
 }
 
 .logoImg {
-  position: relative;
-  left: 0;
   margin: auto;
   width: 25%;
   height: auto;
@@ -17,33 +14,32 @@
 
 
 .Contato {
-  height: 14vh;
   text-align: center;
   margin: auto auto auto 1px;
+  padding-bottom: 3vh;
+
   
 }
 .ContatoTitulo {
   font-size: 2em;
 }
 .ContatoElen {
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: left;
 }
 .ContatoElenIcon {
   font-size: 1.1em;
-  position: relative;
-  bottom: -4px;
   margin-right: 1vw;
 
 }
 
 .RodapeDivTexto{
   width: 25%;
-  border-right: solid black 1px;
-  height: 100px;
+  border-right: solid rgb(129, 151, 4) 2px;
   margin: auto;
   text-align: center;
   padding: 2vw;
+  font-size: 1.4em;
 }
 .RodapeTexto{
  padding: auto;
@@ -62,52 +58,38 @@
     display: none;
   }
   .logoImg {
-    width: 50%;
+    width: 40vw;
     height: auto;
   }
   .ContatoElen{
-    width: 100%;
-    margin-left: 15%;
+     width: 50vw;
+     margin: auto;
   } 
+  .ContatoElen{
+    font-size: 1.8em;
+  }
 }
 
 @media(max-width: 700px)
 {
   .Rodape{
     display: block;   
-    padding: 1vh;
- 
   }
   .RodapeDivTexto
   {    
     display: none;
   }
-
-  .logoImg {   
-    width: 45%;
-    height: auto;
-    margin-left: 36%;
-  }
-  .Contato{
-    margin-top: 2vh;
-  }
-  .ContatoElen{
-    width: 70%;
-    margin-left: 25%;
-  } 
-
   .RodapeHr{
     display: block;
     width: 70%;
     border: solid rgb(129, 151, 4) 1px;
-
   }
-}
+  .Contato{
+    margin-left: 25vw;
+  }
 
-@media(max-width: 400px)
-{
   .ContatoElen {
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: left;
   }
   .ContatoElenIcon {
@@ -118,4 +100,27 @@
     height: auto;
     margin-left: 17%;
   }
+}
+
+@media(max-width: 400px)
+{
+
+  .Contato{
+    margin-left: 15vw;
+  }
+  .ContatoElen {
+    background: red;
+    font-size: 1em;
+    width: 60vw;
+    text-align: left;
+  }
+  .ContatoElenIcon {
+    margin-left: -5vw;  
+  }
+  .logoImg {   
+    width: 65%;
+    height: auto;
+    margin-left: 17%;
+  }
+  
 }
