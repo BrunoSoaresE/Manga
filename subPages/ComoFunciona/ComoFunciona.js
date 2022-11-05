@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import VanillaTilt from 'vanilla-tilt';
 import styles from './ComoFunciona.module.css';
 
 export function SubPageComoFunciona(props) {
@@ -9,13 +8,13 @@ export function SubPageComoFunciona(props) {
   useEffect(() => {
     console.log()
 
-    VanillaTilt.init([refCard1.current,refCard2.current,refCard3.current], {
+   /* VanillaTilt.init([refCard1.current,refCard2.current,refCard3.current], {
       max: 25,
       speed: 400,
       glare:true,
       "max-glare": 1
     });
-
+*/
     
     
   },[])
