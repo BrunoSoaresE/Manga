@@ -67,7 +67,7 @@ p.destaque.left {
     font-size: 1.4em;
   }
 }
-
+/*
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -78,3 +78,4 @@ p.destaque.left {
     background: black;
   }
 }
+*/
