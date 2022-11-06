@@ -45,7 +45,7 @@ console.log(logo);
       </div>
 
 
-      <header className={`${styles.header} `}   >
+      <header className={`${styles.header} ${"backgroundAppBar"} `}   >
         <a href='#' className={styles.logo}><Image src={logo} className={styles.logoImg}  alt="Logo TecManga" /></a>
         <div className={styles.group}>
           <ul className={styles.navigation}>

@@ -8,46 +8,46 @@ export function SubPageFuncionalidades(props) {
       <div className={styles.funcionalidadesUl}>
         <div className={styles.funcionalidadesLI}>
           <div className={styles.card}>
-            <p className={styles.FuncionalideLiTitulo}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
-            <p className={styles.FuncionalideLiDesc}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+            <p className={`${styles.FuncionalideLiTitulo} ${"textoEscuro"} `}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
+            <p className={`${styles.FuncionalideLiDesc} ${"textoClaro"} `}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
           </div>
           <div className={styles.card}>
-            <p className={styles.FuncionalideLiTitulo}><BiRocket className={styles.number} /> <spa className={styles.span} >Segundo passo</spa></p>
-            <p className={styles.FuncionalideLiDesc}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+            <p className={`${styles.FuncionalideLiTitulo} ${"textoEscuro"} `}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
+            <p className={`${styles.FuncionalideLiDesc} ${"textoClaro"} `}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
           </div>
         </div>
         <div className={styles.funcionalidadesLI}>
           <div className={styles.card}>
-            <p className={styles.FuncionalideLiTitulo}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
-            <p className={styles.FuncionalideLiDesc}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+            <p className={`${styles.FuncionalideLiTitulo} ${"textoEscuro"} `}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
+            <p className={`${styles.FuncionalideLiDesc} ${"textoClaro"} `}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
           </div>
           <div className={styles.card}>
-            <p className={styles.FuncionalideLiTitulo}><BiRocket className={styles.number} /> <spa className={styles.span} >Segundo passo</spa></p>
-            <p className={styles.FuncionalideLiDesc}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+            <p className={`${styles.FuncionalideLiTitulo} ${"textoEscuro"} `}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
+            <p className={`${styles.FuncionalideLiDesc} ${"textoClaro"} `}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
           </div>
         </div>
         <div className={styles.funcionalidadesLI}>
           <div className={styles.card}>
-            <p className={styles.FuncionalideLiTitulo}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
-            <p className={styles.FuncionalideLiDesc}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+            <p className={`${styles.FuncionalideLiTitulo} ${"textoEscuro"} `}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
+            <p className={`${styles.FuncionalideLiDesc} ${"textoClaro"} `}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
           </div>
           <div className={styles.card}>
-            <p className={styles.FuncionalideLiTitulo}><BiRocket className={styles.number} /> <spa className={styles.span} >Segundo passo</spa></p>
-            <p className={styles.FuncionalideLiDesc}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+            <p className={`${styles.FuncionalideLiTitulo} ${"textoEscuro"} `}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
+            <p className={`${styles.FuncionalideLiDesc} ${"textoClaro"} `}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
           </div>
         </div>
         <div className={styles.funcionalidadesLI}>
           <div className={styles.card}>
-            <p className={styles.FuncionalideLiTitulo}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
-            <p className={styles.FuncionalideLiDesc}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+            <p className={`${styles.FuncionalideLiTitulo} ${"textoEscuro"} `}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
+            <p className={`${styles.FuncionalideLiDesc} ${"textoClaro"} `}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
           </div>
           <div className={styles.card}>
-            <p className={styles.FuncionalideLiTitulo}><BiRocket className={styles.number} /> <spa className={styles.span} >Segundo passo</spa></p>
-            <p className={styles.FuncionalideLiDesc}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+            <p className={`${styles.FuncionalideLiTitulo} ${"textoEscuro"} `}><BiRocket className={styles.number} /> <spa className={styles.span} >Primeiro passo</spa></p>
+            <p className={`${styles.FuncionalideLiDesc} ${"textoClaro"} `}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
           </div>
         </div>
-    
-     
+
+
 
       </div>
     </div>

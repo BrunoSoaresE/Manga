@@ -3,7 +3,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;  
+    
 }
 
 textarea,input,div,p,h1,h2,h3,span{
@@ -41,7 +42,20 @@ p.destaque.left {
   font-size: 1.6em;
   font-weight: 600;
   text-align: left;
+  
 }
+
+.backgroundAppBar{
+  background: white;
+}
+.textoClaro{
+  color: rgb(58, 58, 58);
+}
+.textoEscuro{
+  color: rgb(37, 37, 37);
+}
+
+
 
 
 @media(max-width: 800px) {
@@ -67,8 +81,8 @@ p.destaque.left {
     font-size: 1.4em;
   }
 }
-/*
-@media (prefers-color-scheme: dark) {
+
+@media(prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -76,6 +90,16 @@ p.destaque.left {
   body {
     color: white;
     background: black;
+  }  
+
+  .backgroundAppBar{
+    background: black;
   }
+  .textoClaro{
+    color: white;
+  }
+  .textoEscuro{
+    color: white;
+  }
+
 }
-*/

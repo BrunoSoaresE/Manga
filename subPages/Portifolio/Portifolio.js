@@ -6,7 +6,7 @@ export function SubPagePortifolio(props) {
   return (
     <div className={styles.portifolio}>
       <h2 className={styles.portifolioTitulo}>Nosso <span className={styles.portifolioTituloSpan}>portifólio</span></h2>
-      <p className={styles.portifolioTexto}>Descubra alguns sites desenvolvidos recentemente pela manga</p>
+      <p className={`${styles.portifolioTexto} ${"textoClaro"} `}>Descubra alguns sites desenvolvidos recentemente pela manga</p>
       <p className={"destaque"}>Queremos você aqui também!</p>
       
 

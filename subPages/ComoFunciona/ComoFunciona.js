@@ -1,24 +1,8 @@
-import { useEffect, useRef } from "react";
-import VanillaTilt from 'vanilla-tilt';
+
 import styles from './ComoFunciona.module.css';
 
 
 export function SubPageComoFunciona(props) {
-  const refCard1 = useRef();
-  const refCard2 = useRef();
-  const refCard3 = useRef();
-
-
-  useEffect(() => {
-    VanillaTilt.init([refCard1.current,refCard2.current,refCard3.current], {
-      max: 25,
-      speed: 400,
-      glare:true,
-      "max-glare": 1
-    });
-    
-  }, [])
-
 
 
 
@@ -30,26 +14,24 @@ export function SubPageComoFunciona(props) {
 
       <p className={styles.comoFuncionaTitulo}>Veja como funciona o processo de criação de Sites.</p>
       <div className={styles.CardList}>
-        <div className={`${styles.Card}`} ref={refCard1}>
+        <div className={`${styles.Card}`} >
           <div className={styles.Content}>
-            <h3>01</h3>
-            <h4>Passo um</h4>
+              <h3>01</h3>        
+              <p>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
+
+          </div>
+        </div>
+        <div className={`${styles.Card}`} >
+          <div className={styles.Content}>
+            <h3>02</h3>
             <p>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
 
           </div>
         </div>
-        <div className={`${styles.Card}`} ref={refCard2}>
+        <div className={`${styles.Card}`} >
           <div className={styles.Content}>
-            <h3>02</h3>
-            <h4>Passo dois</h4>
-            <p>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
-
-          </div>
-        </div>
-        <div className={`${styles.Card}`} ref={refCard3}>
-          <div className={styles.Content}>
-            <h3>02</h3>
-            <h4>Passo tres</h4>
+            <h3>03</h3>
+            <h4>Terceiro passo</h4>
             <p>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
 
           </div>

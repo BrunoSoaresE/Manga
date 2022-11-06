@@ -1,17 +1,18 @@
 .espaco {
   text-align: center;
   padding: 4vw;
-  color: #D76A03;
+
 }
 
 .espacoAutor{
   font-size: 0.5em;
   font-weight: normal;
+  color: #D76A03;
+}
+.espacoTitulo{
+  color: #D76A03;
 }
 
-.espacoP {
-  color: rgb(58, 58, 58);
-}
 
 .espacoUL {
   position: relative;
