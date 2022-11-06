@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/*import React, { useState } from "react";
 import AccordionUI from "../components/AccordionUI";
 
 const Accordion = () => {
@@ -68,4 +68,4 @@ const Accordion = () => {
     </div>
   );
 };
-export default Accordion;
+export default Accordion;*/
