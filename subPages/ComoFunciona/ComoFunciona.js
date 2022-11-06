@@ -7,7 +7,6 @@ export function SubPageComoFunciona(props) {
   const refCard2 = useRef();
   const refCard3 = useRef();
   useEffect(() => {
-    console.log()
 
     VanillaTilt.init([refCard1.current,refCard2.current,refCard3.current], {
       max: 25,
