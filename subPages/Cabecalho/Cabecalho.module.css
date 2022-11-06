@@ -8,11 +8,16 @@
   padding-top: 3vh;
   padding-bottom: 3vh;
 }
+.tituloCabecalho{
+  width: 90%;
+}
+
 
 
 .mensagemCabecalho {
   margin-top: 2vh;
   margin-bottom: 3vw;  
+  width: 90%;
 }
 
 .btnOrcamento {

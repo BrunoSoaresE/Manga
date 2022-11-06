@@ -1,7 +1,7 @@
 .espaco {
   text-align: center;
   padding: 4vw;
-
+  width: 90%;
 }
 
 .espacoAutor{
@@ -12,6 +12,7 @@
 .espacoTitulo{
   color: #D76A03;
 }
+
 
 
 .espacoUL {
