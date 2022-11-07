@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-/*import AccordionUI from "../components/AccordionUI";*/
+import styles from './AccordionUI.module.css';
 
 const Accordion = (props) => {
   const [Index, setIndex] = useState(false);
@@ -10,13 +10,34 @@ const Accordion = (props) => {
     <div >
       {props.data.map((data) => {
         return (
-          <AccordionUI key={data.id}
-            title={data.question}
-            Id={data.id}
-            children={data.answer}
-            Index={Index}
-            setIndex={setIndex}
-          ></AccordionUI>
+
+          <div key={data.id}>
+            <div onClick={() => handleSetIndex(data.id)}>
+              <div className={styles.acordionPergunta} >
+                <p className={`${"destaque"} ${"left"} ${styles.acordionTitle}`}>
+                  {data.question}
+                </p>
+              </div>
+
+            </div>
+
+            {Index === data.id && (
+              <p onClick={() => handleSetIndex(data.id)} className={styles.acordionResposta}>
+                {data.answer}
+              </p>
+            )}
+
+            <hr className={styles.acordionHR}></hr>
+          </div>
+
+
+          /*   <AccordionUI key={data.id}
+               title={data.question}
+               Id={data.id}
+               children={data.answer}
+               Index={Index}
+               setIndex={setIndex}
+             ></AccordionUI>*/
         );
       })}
     </div>
