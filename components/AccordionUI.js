@@ -1,4 +1,4 @@
-/*import styles from './AccordionUI.module.css';
+import styles from './AccordionUI.module.css';
 
 const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
   const handleSetIndex = (Id) => {    
@@ -29,4 +29,4 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
   );
 };
 
-export default AccordionUI;*/
+export default AccordionUI;
