@@ -7,14 +7,13 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
   };
 
   return (
-    <>
+    <div key={Id}>
       <div  onClick={() => handleSetIndex(Id)}>
         <div className={styles.acordionPergunta} >
           <p className={`${"destaque"} ${"left"} ${styles.acordionTitle}`}>
             {title}
           </p>
         </div>
-
 
       </div>
 
@@ -25,7 +24,7 @@ const AccordionUI = ({ title, children, Id, Index, setIndex }) => {
       )}
 
       <hr className={styles.acordionHR}></hr>
-    </>
+    </div>
   );
 };
 
