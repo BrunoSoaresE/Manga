@@ -10,14 +10,13 @@ const Accordion = (props) => {
     <div >
       {props.data.map((data) => {
         return (
-          <div key={data.id}>data.id</div>
-         /* <AccordionUI
+          <AccordionUI key={data.id}
             title={data.question}
             Id={data.id}
             children={data.answer}
             Index={Index}
             setIndex={setIndex}
-          ></AccordionUI>*/
+          ></AccordionUI>
         );
       })}
     </div>
