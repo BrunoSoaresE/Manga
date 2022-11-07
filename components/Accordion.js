@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AccordionUI from "../components/AccordionUI";
+/*import AccordionUI from "../components/AccordionUI";*/
 
 const Accordion = (props) => {
   const [Index, setIndex] = useState(false);
@@ -10,13 +10,14 @@ const Accordion = (props) => {
     <div >
       {props.data.map((data) => {
         return (
-          <AccordionUI
+          <div>data.id</div>
+         /* <AccordionUI
             title={data.question}
             Id={data.id}
             children={data.answer}
             Index={Index}
             setIndex={setIndex}
-          ></AccordionUI>
+          ></AccordionUI>*/
         );
       })}
     </div>
