@@ -10,7 +10,7 @@ const Accordion = (props) => {
     <div >
       {props.data.map((data) => {
         return (
-          <AccordionUI 
+          <AccordionUI key={data.id}
             title={data.question}
             Id={data.id}
             children={data.answer}
