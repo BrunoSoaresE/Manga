@@ -1,51 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from './AccordionUI.module.css';
 
-const Accordion = (props) => {
+const Accordion = () => {
   const [Index, setIndex] = useState(false);
 
-
-
-  return (
-    <div >
-      {props.data.map((data) => {
-        return (
-
-          <div key={data.id}>
-            <div onClick={() => handleSetIndex(data.id)}>
-              <div className={styles.acordionPergunta} >
-                <p className={`${"destaque"} ${"left"} ${styles.acordionTitle}`}>
-                  {data.question}
-                </p>
-              </div>
-
-            </div>
-
-            {Index === data.id && (
-              <p onClick={() => handleSetIndex(data.id)} className={styles.acordionResposta}>
-                {data.answer}
-              </p>
-            )}
-
-            <hr className={styles.acordionHR}></hr>
-          </div>
-
-
-          /*   <AccordionUI key={data.id}
-               title={data.question}
-               Id={data.id}
-               children={data.answer}
-               Index={Index}
-               setIndex={setIndex}
-             ></AccordionUI>*/
-        );
-      })}
-    </div>
-  );
-};
-
-
-export function getStaticProps() {/* roda somente 1 vez no servidor */
   const data = [
     {
       id: 1,
@@ -93,11 +51,45 @@ export function getStaticProps() {/* roda somente 1 vez no servidor */
       answer: "Sempre sempre e sempre Sempre sempre e sempre e sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre",
     },
   ];
-  return {
-    props: {
-      data,
-    },
-  }
-}
+
+  return (
+    <div >
+      {data.map((data) => {
+
+        var IdData = data.id;
+        const handleSetIndex = (IdData) => {
+          Index !== IdData && setIndex(IdData);
+          Index == IdData && setIndex(null);
+        };
+
+
+        return (
+
+          <div key={data.id}>
+            <div onClick={() => handleSetIndex(data.id)}>
+              <div className={styles.acordionPergunta} >
+                <p className={`${"destaque"} ${"left"} ${styles.acordionTitle}`}>
+                  {data.question}
+                </p>
+              </div>
+
+            </div>
+
+            {Index === data.id && (
+              <p onClick={() => handleSetIndex(data.id)} className={`${"textoClaro"} ${styles.acordionResposta}`}>
+                {data.answer}
+              </p>
+            )}
+
+            <hr className={`${styles.acordionHR}`}></hr>
+          </div>
+    
+        );
+      })}
+    </div>
+  );
+};
+
+
 
 export default Accordion;
