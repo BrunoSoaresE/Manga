@@ -1,9 +1,30 @@
-/*import React, { useState } from "react";
+import React, { useState } from "react";
 import AccordionUI from "../components/AccordionUI";
 
-const Accordion = () => {
+const Accordion = (props) => {
   const [Index, setIndex] = useState(false);
 
+
+
+  return (
+    <div >
+      {props.data.map((data) => {
+        return (
+          <AccordionUI
+            title={data.question}
+            Id={data.id}
+            children={data.answer}
+            Index={Index}
+            setIndex={setIndex}
+          ></AccordionUI>
+        );
+      })}
+    </div>
+  );
+};
+
+
+export function getStaticProps() {/* roda somente 1 vez no servidor */
   const data = [
     {
       id: 1,
@@ -51,21 +72,11 @@ const Accordion = () => {
       answer: "Sempre sempre e sempre Sempre sempre e sempre e sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre",
     },
   ];
+  return {
+    props: {
+      data,
+    },
+  }
+}
 
-  return (
-    <div >
-      {data.map((data) => {
-        return (
-          <AccordionUI
-            title={data.question}
-            Id={data.id}
-            children={data.answer}
-            Index={Index}
-            setIndex={setIndex}
-          ></AccordionUI>
-        );
-      })}
-    </div>
-  );
-};
-export default Accordion;*/
+export default Accordion;
