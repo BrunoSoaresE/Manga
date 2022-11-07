@@ -30,6 +30,14 @@
  width: 40vw; 
   height: auto;
   border-radius: 25%;
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: 2s;
+}
+
+.trabalho:hover{
+  filter: none;
+  -webkit-filter: none;
 }
 
 
