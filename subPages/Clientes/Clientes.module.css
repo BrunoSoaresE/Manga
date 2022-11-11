@@ -26,6 +26,10 @@
   background-position: center;
   background-size: cover;
 }
+.iconLogo{
+  padding: 7vh;
+}
+
 .logoCliente {
   height: 20vh;
   width: auto;

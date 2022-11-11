@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { AiOutlineMail } from "react-icons/ai";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 import styles from './Rodape.module.css';
@@ -19,9 +20,11 @@ export function SubPageRodape(props) {
       </a>
 
       <div className={styles.Contato}>       
-          <BsWhatsapp className={styles.ContatoElenIcon} />        
-          <BsInstagram className={styles.ContatoElenIcon} />    
-          <AiOutlineMail className={styles.ContatoElenIconG} />    
+      <Link target={"_blank"} href="https://web.whatsapp.com/send?phone=5531984437010" ><BsWhatsapp className={styles.ContatoElenIcon} />   </Link>
+      <Link target={"_blank"} href="https://www.instagram.com/tec.manga/" ><BsInstagram className={styles.ContatoElenIcon} />   </Link>
+      <Link target={"_blank"} href="mailto:bruno.soaest95@gmail.com" ><AiOutlineMail className={styles.ContatoElenIcon} />   </Link>
+
+      
       </div>
       
     </footer>

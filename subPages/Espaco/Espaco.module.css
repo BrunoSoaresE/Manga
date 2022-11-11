@@ -31,16 +31,16 @@
  width: 40vw; 
   height: auto;
   border-radius: 25%;
-  filter:grayscale(100%);
+  /*filter:grayscale(100%);
   -webkit-filter: grayscale(100%);
-  transition: 2s;
+  transition: 2s;*/
 }
-
+/*
 .trabalho:hover{
   filter: none;
   -webkit-filter: none;
 }
-
+*/
 
 @media(max-width: 800px)
 {
