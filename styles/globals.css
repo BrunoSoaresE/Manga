@@ -33,6 +33,7 @@ p {
   text-align: center;
 
 }
+
 p.destaque {
   font-size: 1.6em;
   font-weight: 600;
@@ -57,6 +58,13 @@ p.destaque.left {
 
 
 
+.SwiperCliente .swiper-slide-active{
+  filter: blur(0px) !important;
+  background: white !important;  
+  border: solid #d769037b 1px !important; 
+}
+
+
 
 @media(max-width: 800px) {
   H1,  H2 {
@@ -70,6 +78,7 @@ p.destaque.left {
   }
 }
 
+
 @media(max-width: 400px) {
   H1,  H2 {
     font-size: 2em;
@@ -80,6 +89,7 @@ p.destaque.left {
   p.destaque {
     font-size: 1.4em;
   }
+ 
 }
 
 @media(prefers-color-scheme: dark) {
@@ -103,3 +113,6 @@ p.destaque.left {
   }
 
 }
+
+
+

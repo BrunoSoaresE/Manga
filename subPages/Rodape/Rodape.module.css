@@ -24,6 +24,10 @@
   font-size: 1.7em;
   margin-right: 2.5vw;
 }
+.ContatoElenIconG{
+  font-size: 1.8em;
+  margin-right: 2.5vw;
+}
 
 .TecManga{
   position: relative;
@@ -46,6 +50,9 @@
   .ContatoElenIcon{
     font-size: 1.6em;
   }
+  .ContatoElenIconG{
+    font-size: 1.7em;
+  }
 }
 
 
@@ -56,6 +63,9 @@
   .ContatoElenIcon{
     font-size: 1.5em;
   }
+  .ContatoElenIconG{
+    font-size: 1.6em;
+  }
 }
 
 @media(max-width: 350px) { 
@@ -64,6 +74,9 @@
   }
   .ContatoElenIcon{
     font-size: 1em;
+  }
+  .ContatoElenIconG{
+    font-size: 1.1em;
   }
 }
 

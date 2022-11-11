@@ -1,4 +1,5 @@
-import { BsInstagram, BsMailbox, BsWhatsapp } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 import styles from './Rodape.module.css';
 
 
@@ -18,9 +19,9 @@ export function SubPageRodape(props) {
       </a>
 
       <div className={styles.Contato}>       
-          <BsWhatsapp className={styles.ContatoElenIcon} />   
-          <BsMailbox className={styles.ContatoElenIcon} />    
+          <BsWhatsapp className={styles.ContatoElenIcon} />        
           <BsInstagram className={styles.ContatoElenIcon} />    
+          <AiOutlineMail className={styles.ContatoElenIconG} />    
       </div>
       
     </footer>
