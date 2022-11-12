@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 
 import { useForm } from 'react-hook-form';
-import 'react-phone-input-2/lib/material.css';
 import styles from './FaleConosco.module.css';
 
 
