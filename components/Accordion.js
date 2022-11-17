@@ -7,48 +7,51 @@ const Accordion = () => {
   const data = [
     {
       id: 1,
-      question: "Bruno ama a carol?",
-      answer: "me Sempre sempre e sempre Sempre sempre e sempre",
+      question: "Meu site ficará disponível, bonito e acessível em todos os celulares e computadores?",
+      answer: "Sim, nossos sites são 100% responsivos. Se adaptam a qualquer tipo de tela de (smartphones, tablets e grandes monitores)",
     },
     {
       id: 2,
-      question: "Bruno ama a carol?",
-      answer: "Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempreSempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre",
+      question: 'Como funciona o serviço "a prova de balas"?',
+      answer: 'Caso seu banco de dados ou algum outro serviço de terceiros pare de funcionar, nossos servidores através da rede global "armazena" a última versão do seu site sem erros, assim não impedindo a visualização do site.',
     },
     {
       id: 3,
-      question: "Bruno ama a carol?",
-      answer: "Sempre sempre e sempre Sempre sempre e sempre e sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre",
+      question: "Meu webSite ficará disponível 24h por dia?",
+      answer: "Sim, a Tecmanga trabalha junta com seus servidores para manter seu site online 24h por dia durante todos os dias do ano.",
     },
     {
       id: 4,
-      question: "Bruno ama a carol?",
-      answer: "me Sempre sempre e sempre Sempre sempre e sempre",
+      question: "Caso eu realize alguma propaganda e tenha uma explosão de acessos o site continuará disponível?",
+      answer: 'Nossos sites possuem uma tecnologia de ponta que permitem ser "gerados" diretamente do servidor, assim a maior parte do processamento para carregamento da página é feita	em nossos servidores, garantindo que inúmeras pessoas acessem seu conteúdo ao mesmo tempo.	Construído com tecnologia serverless de ponta, seu site pode suportar qualquer pico de tráfego, com failover automático e replicação global de ativos',
     },
     {
       id: 5,
-      question: "Bruno ama a carol?",
-      answer: "Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempreSempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre",
+      question: "Meu site irá aparecer nas primeiras páginas do google?",
+      answer: "A Tecmanga aplica diversas técnicas de seo na construção do site para melhorar o ranqueamento do seu site.A tecmanga também sugere mudanças nos textos enviados pelo cliente para que sejam usadas técnicas de SEO também no conteúdo aumentando o ranquemento do site.",
     },
     {
       id: 6,
-      question: "Bruno ama a carol?",
-      answer: "Sempre sempre e sempre Sempre sempre e sempre e sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre",
+      question: "O site será rápido?",
+      answer: 'Nossos sites possuem uma tecnologia de ponta que permitem ser "gerados" diretamente do servidor, assim a maior parte do processamento para carregamento da página é feita	em nossos servidores, garantindo que inúmeras pessoas acessem seu conteúdo ao mesmo tempo.',
     },
     {
       id: 7,
-      question: "Bruno ama a carol?",
-      answer: "me Sempre sempre e sempre Sempre sempre e sempre",
+      question: "A Tecmanga auxilia na revisão dos textos enviados pelos clientes?",
+      answer: "A tecmanga revisa e sugere mudanças nos textos enviados pelo cliente para que sejam usadas técnicas de SEO também no conteúdo.",
     },
     {
       id: 8,
-      question: "Bruno ama a carol?",
-      answer: "Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempreSempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre",
+      question: "Como funciona caso o cliente queira realizar alguma modificação no site após a aprovação?",
+      answer: "Todos os clientes da TecManga têm direito a uma customização por mês.*consulte condições",
     },
     {
       id: 9,
-      question: "Bruno ama a carol?",
-      answer: "Sempre sempre e sempre Sempre sempre e sempre e sempre e sempre Sempre sempre e sempre Sempre sempre e sempre Sempre sempre e sempre",
+      question: "Consigo descobrir quem acessa meu site? E de onde eles vieram?",
+      answer: `Graças a nossa  parceria com o Google Analytics fornecemos informações sobre o uso do aplicativo e o envolvimento do usuário.
+      <br></br>        
+      O Google Analytics ajuda você a entender como seus usuários se comportam, para que você possa tomar decisões informadas sobre como comercializar seu aplicativo. Veja o desempenho de suas campanhas em canais orgânicos e pagos para entender quais métodos são mais eficazes para atrair usuários de alto valor.
+      `,
     },
   ];
 

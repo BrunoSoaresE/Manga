@@ -12,68 +12,35 @@ export function SubPageComoFunciona(props) {
 
 
 
-      <p className={styles.comoFuncionaTitulo}>Veja como funciona o processo de criação de Sites.</p>
+      <p className={styles.comoFuncionaTitulo}> Veja como funciona o processo de criação de Sites.</p>
       <div className={styles.CardList}>
         <div className={`${styles.Card}`} >
           <div className={styles.Content}>
               <h3>01</h3>        
-              <p>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
-
+              <p>
+                Após o primeiro contato, a TecManga disponibiliza um questionário onde ela vai procurar saber tudo sobre sua ideia de site / sobre sua empresa com a finalidade de criar um site perfeito para seu objetivo e gosto.
+              </p>
           </div>
         </div>
         <div className={`${styles.Card}`} >
           <div className={styles.Content}>
             <h3>02</h3>
-            <p>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
-
+            <p>
+              Após o envio do questionário, a TecManga irá começar a desenvolver seu site sempre mantendo o contato com você para tudo sair dentro dos planos e desejos do cliente.
+            </p>
           </div>
         </div>
         <div className={`${styles.Card}`} >
           <div className={styles.Content}>
             <h3>03</h3>
             <h4>Terceiro passo</h4>
-            <p>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
-
+            <p>
+              Após a finalização do desenvolvimento e aprovação do cliente o site será publicado para todos mundialmente e você não precisará mais se preocupar com o site, somente com seu conteúdo e seu negócio.
+            </p>
           </div>
         </div>
       </div>
-
-
-      {/*
-
-      <div  className={styles.comoFuncionaUl}>
-        <div className={styles.comoFuncionaLI}>
-        <card className={styles.comoFuncionaCard}>
-          <div className={styles.numberBox}>
-            <RiNumber1 className={styles.number} />K
-          </div>
-            <p className={styles.p1}>Primeiro passo</p>
-            <p className={styles.p2}>Criação de Sites Institucionais, Criação Sistema Web Personalizado, Criação de blogs, Criação de sites para cabelereiro,Criação de sites para petshot</p>
-            <p className={styles.p3}>Qual Tipo de Site é o Ideal para a Sua Empresa?</p>
-          </card>
-        </div>
-        <div className={styles.comoFuncionaLI}>
-          <card className={styles.comoFuncionaCard}>
-          <div className={styles.numberBox}>
-            <RiNumber2 className={styles.number}/>K
-          </div>
-            <p className={styles.p1}>Segundo passo</p>
-            <p className={styles.p2}>Línguas Estrangeiras, Área Restrita, Downloads de PDF, Meios de Pagamentos</p>
-            <p className={styles.p3}>Escolha quais são os adicionais do seu projeto.</p>
-          </card>
-        </div>
-        <div className={styles.comoFuncionaLI}>
-          <card>
-          <div className={styles.numberBox}>
-            <RiNumber3 className={styles.number} />K
-          </div>
-            <p className={styles.p1}>Terceiro e ultimo passo</p>
-            <p className={styles.p2}>Elaboração e Envio da Proposta, Emissão de Contrato, Aprovação do Layout, Agora é so aproveitar!</p>
-            <p className={styles.p3}>Dentro do Prazo você terá um Site Novinho.</p>
-          </card>
-        </div>
-      </div>
-       */}
+      
     </div>
   )
 }

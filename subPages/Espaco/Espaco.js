@@ -10,8 +10,15 @@ export function SubPageEspaco(props) {
         <div className={styles.espacoLI}>
           <div className={styles.espacoTexto}>
             <h2 className={styles.espacoTitulo}>“A melhor forma de prever o futuro é criá-lo”<br></br><span className={styles.espacoAutor}>Peter F. Drucker</span></h2>
-            <p className={`${styles.espacoP} ${"textoClaro"} `}>O Next4 é uma agência de criação de sites profissionais que gera mais resultados de posicionamento orgânico para sua empresa. Possuímos um time incrível com mais de 16 anos de mercado e mais de 1000 sites criados nesse período. Sabemos todos os caminhos para seu website performar bem nas buscas.</p>
-            <p className={`${styles.espacoP} ${"textoClaro"} `}>Hoje a base para qualquer estratégia de Marketing Digital passa pela Criação de sites. É o pilar entre a sua empresa e os visitantes que poderão comprar ou não conforme a sua experiência com a sua marca.   Criação de sites, Desenvolvimento de Sites institucionais, Lojas Virtuais - E-commerce e Sistemas web personalizados é o nosso core - fazemos isso todos os dias por aqui.</p>
+            <p className={`${styles.espacoP} ${"textoClaro"} `}>
+              A tecManga é uma agência de criação de sites focada em descomplicar o mercado de webSites.Nosso objetivo é levar ao maior número de pessoas um site bonito, rápido,escalável e técnicas de SEO gerando mais resultados de posicionamento orgânico para sua empresa.
+              </p>
+            <p className={`${styles.espacoP} ${"textoClaro"} `}>
+              Hoje a base para qualquer estratégia de Marketing Digital passa pela criação de sites.
+              É o pilar entre a sua empresa e os visitantes que poderão comprar ou não conforme a sua experiência com a sua marca, A tecmanga estará aqui para descomplicar sua vida
+              Criação de sites, Landing Page, Desenvolvimento de Sites institucionais, Lojas Virtuais - E-commerce e Sistemas web personalizados é o nosso core
+             <br></br> - fazemos isso todos os dias por aqui.
+            </p>
           </div>
         </div>
 

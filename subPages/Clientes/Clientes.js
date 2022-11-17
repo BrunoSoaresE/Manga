@@ -53,13 +53,13 @@ export function SubPageClientes(props) {
 
   var tamanhoTelaLogos = 5;
   var tamanhoTelaFeedBack = 2.5;
-  if(window.width > 800){
+  if (window.width > 800) {
     tamanhoTelaFeedBack = 2.5;
     tamanhoTelaLogos = 5;
-  }else  if(window.width > 400){
+  } else if (window.width > 400) {
     tamanhoTelaFeedBack = 1.5;
     tamanhoTelaLogos = 3;
-  }else{
+  } else {
     tamanhoTelaFeedBack = 1.1;
     tamanhoTelaLogos = 1.8;
   }
@@ -89,244 +89,245 @@ export function SubPageClientes(props) {
           delay: 1500,
           disableOnInteraction: false,
         }}
- 
+
 
         pagination={true}
-        modules={[Autoplay,EffectCoverflow, Pagination]}
+        modules={[Autoplay, EffectCoverflow, Pagination]}
       >
-       <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente1} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente1} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente2} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente2} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente3} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente3} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente4} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente4} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente5} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente5} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente6} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente6} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente7} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente7} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente8} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente8} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente9} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente9} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente10} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente10} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente11} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente11} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente12} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente12} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente13} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente13} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente14} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente14} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente15} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente15} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente16} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente16} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente17} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente17} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente18} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente18} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente19} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente19} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente20} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente20} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente21} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente21} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente22} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente22} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente23} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente23} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.SwiperSlideLogo}>   
-            <div className={styles.iconLogo}>
-              <Image src={cliente24} className={styles.logoCliente} alt="Logo TecManga"  />
-            </div>       
+        <SwiperSlide className={styles.SwiperSlideLogo}>
+          <div className={styles.iconLogo}>
+            <Image src={cliente24} className={styles.logoCliente} alt="Logo TecManga" />
+          </div>
         </SwiperSlide>
-      
-  
+
+
       </Swiper>
 
 
 
-      <p className={styles.clienteTexto}>A manga é uma agência de criação de sites com clientes satisfeitos espalhados pelo mundo inteiro. Atraves de uma equipe competente e organizada iremos fazer seu negocio decolar.</p>
+      <p className={styles.clienteTexto}>
+        A Tecmanga é uma agência feita para descomplicar seu site. Foque no seu negócio/conteúdo que nos cuida dos bastidores para manter as melhores técnicas de performance e SEO. Juntos faremos seu negócio decolar.        </p>
 
-      <Swiper className={`${styles.Swiper}  ${"SwiperCliente"}`} 
-              effect={"coverflow"}
-              loop={true}
-              navigation={true}
-              grabCursor={true}re
-              centeredSlides={true}
-              slidesPerView={tamanhoTelaFeedBack}
-              spaceBetween={10}
-              coverflowEffect={{
-                rotate: 0,
-                stretch: 10,
-                depth: 100,
-                modifier: 1,
-                slideShadows: false,
-              }}
-              autoplay={{
-                delay: 4000,
-                disableOnInteraction: false,
-              }}
-       
-      
-              pagination={true}
-              modules={[Autoplay,EffectCoverflow, Pagination]}
+      <Swiper className={`${styles.Swiper}  ${"SwiperCliente"}`}
+        effect={"coverflow"}
+        loop={true}
+        navigation={true}
+        grabCursor={true} re
+        centeredSlides={true}
+        slidesPerView={tamanhoTelaFeedBack}
+        spaceBetween={10}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 10,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        }}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
+
+
+        pagination={true}
+        modules={[Autoplay, EffectCoverflow, Pagination]}
       >
-        <SwiperSlide  className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
-      
+        <SwiperSlide className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
+
           <div className={styles.Box}>
-          <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-          <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-          <div  className={`${styles.Detalhes} ${"Detalhes"}`} >
-            <div className={styles.iconClienteBox}>
-              <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga"  />
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
             </div>
-            <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-          </div>
           </div>
 
-          
+
         </SwiperSlide>
-     
+
         <SwiperSlide className={styles.SwiperSlide}>
           <div className={styles.Box}>
-          <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-          <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-          <div  className={`${styles.Detalhes} ${"Detalhes"}`} >
-            <div className={styles.iconClienteBox}>
-              <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga"  />
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
             </div>
-            <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-          </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide  className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
+        <SwiperSlide className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
           <div className={styles.Box}>
-          <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-          <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-          <div  className={`${styles.Detalhes} ${"Detalhes"}`} >
-            <div className={styles.iconClienteBox}>
-              <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga"  />
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
             </div>
-            <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-          </div>
-          </div>
-        </SwiperSlide>
-     
-        <SwiperSlide className={styles.SwiperSlide}>
-          <div className={styles.Box}>
-          <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-          <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-          <div  className={`${styles.Detalhes} ${"Detalhes"}`} >
-            <div className={styles.iconClienteBox}>
-              <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga"  />
-            </div>
-            <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-          </div>
           </div>
         </SwiperSlide>
 
-        <SwiperSlide  className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
-          <div className={styles.Box}>
-          <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-          <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-          <div  className={`${styles.Detalhes} ${"Detalhes"}`} >
-            <div className={styles.iconClienteBox}>
-              <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga"  />
-            </div>
-            <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-          </div>
-          </div>
-        </SwiperSlide>
-     
         <SwiperSlide className={styles.SwiperSlide}>
           <div className={styles.Box}>
-          <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-          <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-          <div  className={`${styles.Detalhes} ${"Detalhes"}`} >
-            <div className={styles.iconClienteBox}>
-              <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga"  />
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
             </div>
-            <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-          </div>
           </div>
         </SwiperSlide>
 
-       
+        <SwiperSlide className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
+          <div className={styles.Box}>
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className={styles.SwiperSlide}>
+          <div className={styles.Box}>
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
+            </div>
+          </div>
+        </SwiperSlide>
+
+
 
 
       </Swiper>
@@ -355,13 +356,13 @@ function useWindowSize() {
         height: window.innerHeight,
       });
     }
-    
+
     // Add event listener
     window.addEventListener("resize", handleResize);
-     
+
     // Call handler right away so state gets updated with initial window size
     handleResize();
-    
+
     // Remove event listener on cleanup
     return () => window.removeEventListener("resize", handleResize);
   }, []); // Empty array ensures that effect is only run on mount

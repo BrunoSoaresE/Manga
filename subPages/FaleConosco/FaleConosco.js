@@ -43,10 +43,10 @@ export function SubPageFaleConosco(props) {
     <div className={styles.FaleConosco}>
       <div className={styles.FaleConoscoDiv}>
         <h2>Receba uma análise gratuita!</h2>
-        <p>Chame o consultor para receber uma análise gratuita de nossa equipe de especialistas em websites, anúncios e vendas na itnernet.</p>
+        <p>Chame o consultor para receber uma análise gratuita de nossa equipe de especialistas.</p>
       </div>
       <form className={styles.FaleConoscoForm} onSubmit={handleSubmit(myFunc)}>
-        <p className={styles.FaleConoscoFormTexto}>Receba uma análise gratuita para sua empresa.  Recomendaremos o melhor caminho para o sucesso do seu negócio na internet.</p>
+        <p className={styles.FaleConoscoFormTexto}>Receba uma análise gratuita para sua empresa. Recomendamos o melhor caminho para o sucesso do seu negócio na internet.</p>
         {/*https://react-hook-form.com/get-started/ */}
         <input {...register("Nome")} required placeholder='Nome' className={styles.FaleConoscoFormInput}></input>
         <input {...register("Email")} placeholder='Email' type="email" className={styles.FaleConoscoFormInput}></input>
