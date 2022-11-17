@@ -49,7 +49,7 @@ const Accordion = () => {
       id: 9,
       question: "Consigo descobrir quem acessa meu site? E de onde eles vieram?",
       answer: `Graças a nossa  parceria com o Google Analytics fornecemos informações sobre o uso do aplicativo e o envolvimento do usuário.
-      <br></br>        
+            
       O Google Analytics ajuda você a entender como seus usuários se comportam, para que você possa tomar decisões informadas sobre como comercializar seu aplicativo. Veja o desempenho de suas campanhas em canais orgânicos e pagos para entender quais métodos são mais eficazes para atrair usuários de alto valor.
       `,
     },
