@@ -1,0 +1,7 @@
+.ListaDestaque{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  color: #D76A03;
+  background: red;
+  min-height: 10vh;
+}

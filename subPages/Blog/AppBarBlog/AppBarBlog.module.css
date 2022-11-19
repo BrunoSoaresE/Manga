@@ -1,0 +1,237 @@
+.appBarr{
+  margin-bottom: 12vh;
+
+}
+.header
+{
+  background: yellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  box-shadow:  0 5vh 5vh rgba(0,0,0,0.05);
+  z-index: 80;
+}
+.headerSuperior{
+  background: red;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerInferior{
+  margin: auto;
+  background: pink;
+  height: 20%;
+}
+
+.areaIconsBtn{
+  background: #BF3100;
+  width: 35%;
+  height: 100%;
+
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+}
+.areaLogo
+{
+  background: yellow;
+  min-width: 240px;
+}
+.logoImg{
+  margin: auto;
+}
+.logoImg{
+  height: 150px;
+  width: auto;
+}
+.areaIconsRedes{
+  background: #BF3100;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+/*.menuToggle
+{
+  display: block;
+  font-size: 2em;
+  cursor: pointer; 
+}
+.iconBusca
+{
+  display: block;
+  font-size: 2em;
+  cursor: pointer; 
+  margin-left: -3vw;
+}
+*/
+
+
+
+
+
+
+/*
+.group
+{
+  display: flex;
+  align-items: center;
+  padding-right: 5vw;  
+  padding-left: 5vw;  
+}
+
+.header ul
+{
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+.header ul li
+{
+  list-style: none;
+}
+.header ul li a
+{
+  position: relative;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.header ul li a::before
+{
+ content: '';
+ position: absolute;
+ bottom: -0.2vh;
+ width: 100%;
+ height: 2px;
+ background: #D76A03;
+ transform: scaleX(0);
+ transition: 0.5s ease-in-out;
+ transform-origin: right;
+}
+.header ul li a:hover::before
+{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+.menuLateral
+{
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;   
+  box-shadow:  0 5vh 5vh rgba(0,0,0,0.05);
+  z-index: 90;
+  /*transition-delay: 0.3s;*/
+  visibility: hidden;
+
+}
+
+
+.menuLateral .MLgroup{
+  background: #D76A03;
+  background-color: #D76A03; /* For browsers that do not support gradients */
+  background-image: linear-gradient(135deg, #BF3100 , #D76A03,#D76A03,#D76A03,#BF3100); 
+  height: 100%; 
+  width: 0%;
+  position: fixed;
+  right: 0;
+  padding-top: 2vh;  
+  padding-bottom: 2vh;  
+  padding-right: 5vw;  
+  padding-left: 5vw;  
+
+
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz-transition: width  0.3s ease-in-out;
+  -o-transition: width  0.3s ease-in-out;
+  transition: width  0.3s ease-in-out; 
+}
+
+.MLEspace{
+  height: 100%; 
+  width: 100%;
+  position: fixed;
+  left: 0; 
+}
+.menuLateral.open
+{
+  visibility: visible;
+}
+.menuLateral.open .MLgroup{
+  width:40%;
+}
+.menuLateral.openclose .MLgroup{
+  width: 0%;
+}
+
+.menuLateral ul
+{
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+.menuLateral ul li
+{
+  list-style: none;
+}
+.menuLateral ul li a
+{
+  position: relative;
+  text-decoration: none;
+  font-size: 1.1em;
+  color:white;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1vw;
+}
+.menuLateral ul li a::before
+{
+ content: '';
+ position: absolute;
+ bottom: -0.2vh;
+ width: 100%;
+ height: 2px;
+ background: rgb(129, 151, 4);
+ transform: scaleX(0);
+ transition: 0.5s ease-in-out;
+ transform-origin: right;
+}
+.menuLateral ul li a:hover::before
+{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.menuLateral .MLnavigation
+{   
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+}
+
+
+
