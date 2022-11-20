@@ -90,7 +90,7 @@ export function SubPageAppBar(props) {
             </ul>
 
             <div className={styles.Search} ref={refSearchDiv}>
-              <span ref={refSearch}> <CgSearch /></span>
+              <span className={styles.btnSearch} ref={refSearch}> <CgSearch /></span>
               <span className={styles.btnClose} ref={refClose}> <CgClose /></span>
 
             </div>
