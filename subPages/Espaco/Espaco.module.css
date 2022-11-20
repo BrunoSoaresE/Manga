@@ -2,12 +2,13 @@
   width: 90%;
 }
 
-.espacoAutor{
+.espacoAutor {
   font-size: 0.5em;
   font-weight: normal;
   color: #D76A03;
 }
-.espacoTitulo{
+
+.espacoTitulo {
   color: #D76A03;
 }
 
@@ -25,13 +26,20 @@
 }
 
 .trabalho {
- width: 40vw; 
+  width: 40vw;
   height: auto;
   border-radius: 25%;
+
+
+  box-shadow: 2px 2px 2px 2px #d7690397;
+  border-top: 1px solid #d769038b;
+  border-left: 1px solid #d769038b;
+  backdrop-filter: blur(50px);
   /*filter:grayscale(100%);
   -webkit-filter: grayscale(100%);
   transition: 2s;*/
 }
+
 /*
 .trabalho:hover{
   filter: none;
@@ -39,24 +47,24 @@
 }
 */
 
-@media(max-width: 800px)
-{
+@media(max-width: 800px) {
   .espacoUL {
-    display: block;  
+    display: block;
   }
+
   .trabalho {
-    width: 80%; 
+    width: 80%;
     height: auto;
   }
-  .espacoAutor{
-    font-size: 0.5em;   
-  } 
+
+  .espacoAutor {
+    font-size: 0.5em;
+  }
 
 }
 
-@media(max-width: 400px)
-{
-  .espacoAutor{
-    font-size: 0.5em;   
-  }  
+@media(max-width: 400px) {
+  .espacoAutor {
+    font-size: 0.5em;
+  }
 }
