@@ -6,7 +6,7 @@ import styles from './Cabecalho.module.css';
 export function SubPageCabecalho(props) {
   return (
     <section className={styles.homeCabecalho}>
-      <span className={`${"ancora"}`} id='ancoraHomeCabecalho'></span>
+      <span className={`${"ancora"}`} id='HomeCabecalho'></span>
       <h1 className={styles.tituloCabecalho}>Seu site personalizado sem complicações</h1>
       <p  className={styles.mensagemCabecalho}>Profissionais com mais de 5 anos de experiência em desenvolvimento de sites e soluções web. Sem complicações e sem extras.</p>
 

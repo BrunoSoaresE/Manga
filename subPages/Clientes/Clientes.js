@@ -44,7 +44,7 @@ export function SubPageClientes(props) {
 
   return (
     <section className={styles.clienteContainer}>
-      <span className={`${"ancora"}`} id='ancoraCliente'></span>
+      <span className={`${"ancora"}`} id='Cliente'></span>
 
       <h2 className={styles.clienteTitulo}>Clientes e <span className={styles.clienteTituloSpan}>Feedback</span></h2>
 

@@ -5,7 +5,7 @@ import styles from './Portifolio.module.css';
 export function SubPagePortifolio(props) {
   return (
     <section className={styles.portifolio}>
-      <span className={`${"ancora"}`} id='ancoraPortifolio'></span>
+      <span className={`${"ancora"}`} id='Portfolio'></span>
 
       <h2 className={styles.portifolioTitulo}>Nosso <span className={styles.portifolioTituloSpan}>portfólio</span></h2>
       <p className={`${styles.portifolioTexto} ${"textoClaro"} `}>Descubra alguns sites desenvolvidos recentemente pela TecManga</p>

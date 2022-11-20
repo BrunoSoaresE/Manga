@@ -44,15 +44,15 @@ export function SubPageAppBar(props) {
         <div className={styles.MLEspace} ref={refMLEspace}></div>
 
         <div className={styles.MLgroup} >
-          <ul className={styles.MLnavigation}  ref={refMenuUl}>
-            <li><a href="#ancoraEspaco">Sobre</a></li>
-            <li><a href="#ancoraComoFunciona">Processos</a></li>
-            <li><a href="#ancoraFuncionalidades">Vantagens</a></li>
-            <li><a href="#ancoraPortifolio">Portifólio</a></li>
-            <li><a href="#ancoraCliente">Clientes</a></li>
-            <li><a href="#ancoraFaleConosco">Contato</a></li>
-            <li><a href="#ancoraPergunta">Perguntas</a></li>
-            <li><a href="#ancoraRodape">Redes social</a></li>
+          <ul className={styles.MLnavigation}  >
+            <li><a ref={refMenuUl} href="#Espaco">Sobre</a></li>
+            <li><a ref={refMenuUl} href="#ComoFunciona">Processos</a></li>
+            <li><a ref={refMenuUl} href="#Funcionalidades">Vantagens</a></li>
+            <li><a ref={refMenuUl} href="#Portfolio">Portifólio</a></li>
+            <li><a ref={refMenuUl} href="#Cliente">Clientes</a></li>
+            <li><a ref={refMenuUl} href="#FaleConosco">Contato</a></li>
+            <li><a ref={refMenuUl} href="#Pergunta">Perguntas</a></li>
+            <li><a ref={refMenuUl} href="#RedesSocial">Redes social</a></li>
           </ul>
 
         </div>
@@ -60,14 +60,14 @@ export function SubPageAppBar(props) {
 
 
       <header className={`${styles.header} ${"backgroundAppBar"} `}   >
-        <a href='#ancoraHomeCabecalho' className={styles.logo}><Image src={logo} className={styles.logoImg}  alt="Logo TecManga" /></a>
+        <a href='#HomeCabecalho' className={styles.logo}><Image src={logo} className={styles.logoImg}  alt="Logo TecManga" /></a>
         <div className={styles.group}>
           <ul className={styles.navigation}>
-            <li><a href="#ancoraEspaco">Sobre</a></li>
-            <li><a href="#ancoraComoFunciona">Processos</a></li>
-            <li><a href="#ancoraFuncionalidades">Vantagens</a></li>
-            <li><a href="#ancoraPortifolio">Portifólio</a></li>
-            <li><a href="#ancoraFaleConosco">Contato</a></li>
+            <li><a href="#Espaco">Sobre</a></li>
+            <li><a href="#ComoFunciona">Processos</a></li>
+            <li><a href="#Funcionalidades">Vantagens</a></li>
+            <li><a href="#Portfolio">Portifólio</a></li>
+            <li><a href="#FaleConosco">Contato</a></li>
 
           </ul>
           <div ref={refMenuToggle} className={styles.menuToggle}>

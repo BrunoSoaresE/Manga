@@ -8,7 +8,7 @@ export function SubPageComoFunciona(props) {
 
   return (
     <section className={styles.comoFunciona}>
-      <span className={`${"ancora"}`} id='ancoraComoFunciona'></span>
+      <span className={`${"ancora"}`} id='ComoFunciona'></span>
 
       <p className={styles.comoFuncionaTitulo}> Veja como funciona o processo de criação de Sites.</p>
       <div className={styles.CardList}>

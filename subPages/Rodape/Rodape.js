@@ -7,7 +7,7 @@ import styles from './Rodape.module.css';
 export function SubPageRodape(props) {
   return (
     <footer className={styles.Rodape}>
-            <span className={`${"ancora"}`} id='ancoraRodape'></span>
+            <span className={`${"ancora"}`} id='RedesSocial'></span>
 
       <a
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

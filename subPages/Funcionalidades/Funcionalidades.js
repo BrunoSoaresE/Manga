@@ -4,7 +4,7 @@ import styles from './Funcionalidades.module.css';
 export function SubPageFuncionalidades(props) {
   return (
     <section className={styles.funcionalidades}>
-      <span className={`${"ancora"}`} id='ancoraFuncionalidades'></span>
+      <span className={`${"ancora"}`} id='Funcionalidades'></span>
 
       <h2>O que faremos <span className={styles.funcionalidadesTituloSpan}>por você!</span></h2>
 
