@@ -39,7 +39,9 @@
 .Swiper {
   width: 90%;
   margin-top: 3vh;
-  margin-bottom: 3vh;
+  padding-bottom: 1vh !important;
+  padding-top: 1vh !important;
+
 }
 .SwiperSlide {
   background-position: center;

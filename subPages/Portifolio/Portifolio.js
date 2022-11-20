@@ -5,6 +5,8 @@ import styles from './Portifolio.module.css';
 export function SubPagePortifolio(props) {
   return (
     <section className={styles.portifolio}>
+      <span className={`${"ancora"}`} id='ancoraPortifolio'></span>
+
       <h2 className={styles.portifolioTitulo}>Nosso <span className={styles.portifolioTituloSpan}>portifólio</span></h2>
       <p className={`${styles.portifolioTexto} ${"textoClaro"} `}>Descubra alguns sites desenvolvidos recentemente pela manga</p>
       <p className={"destaque"}>Queremos você aqui também!</p>

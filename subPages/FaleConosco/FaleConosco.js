@@ -41,6 +41,8 @@ export function SubPageFaleConosco(props) {
 
   return (
     <section className={styles.FaleConosco}>
+      <span className={`${"ancora"}`} id='ancoraFaleConosco'></span>
+
       <div className={styles.FaleConoscoDiv}>
         <h2>Receba uma análise gratuita!</h2>
         <p>Chame o consultor para receber uma análise gratuita de nossa equipe de especialistas.</p>

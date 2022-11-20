@@ -7,6 +7,7 @@ import styles from './AppBar.module.css';
 
 export function SubPageAppBar(props) {
 
+  const refMenuUl = useRef();
   const refMenuToggle = useRef();
   const refSubPageMenuLateral = useRef();
   const refMLEspace = useRef();
@@ -14,16 +15,25 @@ export function SubPageAppBar(props) {
 
   useEffect(() => {
     refMenuToggle.current.onclick = function () {
-      refSubPageMenuLateral.current.classList.toggle(styles.open);
+      refSubPageMenuLateral.current.classList.add(styles.open);
     }
+    
     refMLEspace.current.onclick = function () {
-      refSubPageMenuLateral.current.classList.toggle(styles.openclose);
-      setTimeout(() => {
-        refSubPageMenuLateral.current.classList.toggle(styles.open);
-        refSubPageMenuLateral.current.classList.toggle(styles.openclose);
-      }, 300);
+      closeMenu();
     }
+    refMenuUl.current.onclick = function () {
+      closeMenu();
+    }
+
   }, [])
+
+  function closeMenu(){
+    refSubPageMenuLateral.current.classList.add(styles.openclose);
+    setTimeout(() => {
+      refSubPageMenuLateral.current.classList.remove(styles.open);
+      refSubPageMenuLateral.current.classList.remove(styles.openclose);
+    }, 100);
+  }
 
 
 
@@ -34,11 +44,12 @@ export function SubPageAppBar(props) {
         <div className={styles.MLEspace} ref={refMLEspace}></div>
 
         <div className={styles.MLgroup} >
-          <ul className={styles.MLnavigation}>
-            <li><a href="#">Quem somos</a></li>
-            <li><a href="#">Vantagens</a></li>
-            <li><a href="#">Portifólio</a></li>
-            <li><a href="#">Contato</a></li>
+          <ul className={styles.MLnavigation}  ref={refMenuUl}>
+          <li><a href="#ancoraEspaco">Sobre</a></li>
+            <li><a href="#ancoraFuncionalidades">Vantagens</a></li>
+            <li><a href="#ancoraPortifolio">Portifólio</a></li>
+            <li><a href="#ancoraFaleConosco">Contato</a></li>
+            <li><a href="#ancoraPergunta">Perguntas</a></li>
           </ul>
 
         </div>
@@ -46,14 +57,14 @@ export function SubPageAppBar(props) {
 
 
       <header className={`${styles.header} ${"backgroundAppBar"} `}   >
-        <a href='#' className={styles.logo}><Image src={logo} className={styles.logoImg}  alt="Logo TecManga" /></a>
+        <a href='#ancoraHomeCabecalho' className={styles.logo}><Image src={logo} className={styles.logoImg}  alt="Logo TecManga" /></a>
         <div className={styles.group}>
           <ul className={styles.navigation}>
 
-          <li><a href="#">Quem somos</a></li>
-            <li><a href="#">Vantagens</a></li>
-            <li><a href="#">Portifólio</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#ancoraEspaco">Sobre</a></li>
+            <li><a href="#ancoraFuncionalidades">Vantagens</a></li>
+            <li><a href="#ancoraPortifolio">Portifólio</a></li>
+            <li><a href="#ancoraFaleConosco">Contato</a></li>
           </ul>
           <div ref={refMenuToggle} className={styles.menuToggle}>
             <CgMenu />

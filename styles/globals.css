@@ -63,6 +63,12 @@ section{
   border: solid #d769037b 1px !important; 
 }
 
+.ancora{
+  position: relative;
+  top: -13vh;
+  visibility: hidden;
+  display: block
+}
 
 
 @media(max-width: 800px) {
