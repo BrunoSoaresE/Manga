@@ -21,8 +21,8 @@ export default function Home() {
         <meta name='description' content='Seu site está próximo de se tornar realidade a TecManga vai ajuda-lo a tornar seu sonho realidade sem dor de cabeça' />
         <meta property="og:description" content="Seu site está próximo de se tornar realidade a TecManga vai ajuda-lo a tornar seu sonho realidade sem dor de cabeça." />
 
-        <meta property="og:image" content="/assets/logos/LogoBola.png" />
-        <link rel='icon' href='/assets/logos/LogoBola.png' />
+        <meta property="og:image" content="/assets/logos/LogoColorida.png" />
+        <link rel='icon' href='/assets/logos/LogoColorida.png' />
 
         <meta name="author" content="TecManga" />
         <meta name="copyright" content="© 2022 TecManga" />
