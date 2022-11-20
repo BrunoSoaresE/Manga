@@ -7,7 +7,7 @@ export function SubPageComoFunciona(props) {
 
 
   return (
-    <div className={styles.comoFunciona}>
+    <section className={styles.comoFunciona}>
 
 
 
@@ -41,6 +41,6 @@ export function SubPageComoFunciona(props) {
         </div>
       </div>
       
-    </div>
+    </section>
   )
 }

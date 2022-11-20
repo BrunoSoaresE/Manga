@@ -57,7 +57,10 @@ p.destaque.left {
   color: rgb(37, 37, 37);
 }
 
-
+section{
+  margin: auto;
+  margin-bottom: 10vh;
+}
 
 .SwiperCliente .swiper-slide-active{
   filter: blur(0px) !important;

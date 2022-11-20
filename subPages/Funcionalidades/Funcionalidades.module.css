@@ -1,6 +1,7 @@
 .funcionalidades{
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  align-items: center;
+  text-align: justify;
+  width: 90%;
 }
 
 .funcionalidadesTituloSpan {
@@ -12,9 +13,6 @@
 .funcionalidadesUl {  
   padding-left: 4vw;
   padding-right: 5vw;
-
-  align-items: center;
-  text-align: justify;
 }
 
 .funcionalidadesLI {

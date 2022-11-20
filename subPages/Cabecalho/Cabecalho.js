@@ -5,7 +5,7 @@ import styles from './Cabecalho.module.css';
 
 export function SubPageCabecalho(props) {
   return (
-    <div className={styles.homeCabecalho}>
+    <section className={styles.homeCabecalho}>
       <h1 className={styles.tituloCabecalho}>Seu site personalizado sem complicações</h1>
       <p  className={styles.mensagemCabecalho}>Temos mais de 5 anos de experiência com o desenvolvimento de sites e soluções web.Sem complicações e sem extras, seu site rápido, escalável, bonito do seu jeito.</p>
 
@@ -15,7 +15,7 @@ export function SubPageCabecalho(props) {
         </div>
       </Link>
 
-    </div>
+    </section>
 
   )
 }

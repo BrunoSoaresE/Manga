@@ -69,7 +69,7 @@ const Accordion = () => {
         return (
 
           <div key={data.id}>
-            <div onClick={() => handleSetIndex(data.id)}>
+            <div className={styles.acordionPerguntaBtn} onClick={() => handleSetIndex(data.id)}>
               <div className={styles.acordionPergunta} >
                 <p className={`${"destaque"} ${"left"} ${styles.acordionTitle}`}>
                   {data.question}

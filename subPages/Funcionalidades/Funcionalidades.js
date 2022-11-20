@@ -3,7 +3,7 @@ import styles from './Funcionalidades.module.css';
 
 export function SubPageFuncionalidades(props) {
   return (
-    <div className={styles.funcionalidades}>
+    <section className={styles.funcionalidades}>
       <h2>O que faremos <span className={styles.funcionalidadesTituloSpan}>por você!</span></h2>
 
       <div className={styles.funcionalidadesUl}>
@@ -98,6 +98,6 @@ export function SubPageFuncionalidades(props) {
 
 
       </div>
-    </div>
+    </section>
   )
 }

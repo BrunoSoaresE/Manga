@@ -4,7 +4,7 @@ import styles from './Espaco.module.css';
 
 export function SubPageEspaco(props) {
   return (
-    <div type="button" className={styles.espaco}>
+    <section type="button" className={styles.espaco}>
 
       <div className={styles.espacoUL}>
         <div className={styles.espacoLI}>
@@ -26,6 +26,6 @@ export function SubPageEspaco(props) {
           <Image src={trabalho} className={styles.trabalho} alt="Logo TecManga" />
         </div>
       </div>
-    </div>
+    </section>
   )
 }

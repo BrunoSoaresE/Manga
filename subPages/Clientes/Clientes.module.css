@@ -43,10 +43,11 @@
 }
 .SwiperSlide {
   background-position: center;
-  background-size: cover;
-  filter: blur(2px);
+  background-size: cover;  
   background: #d7690310;
   border-radius: 10px;
+  background: white !important;  
+  border: solid #d769032b 0.1px; 
 }
 .Box {
   padding: 40px; 

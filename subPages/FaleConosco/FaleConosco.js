@@ -40,7 +40,7 @@ export function SubPageFaleConosco(props) {
   
 
   return (
-    <div className={styles.FaleConosco}>
+    <section className={styles.FaleConosco}>
       <div className={styles.FaleConoscoDiv}>
         <h2>Receba uma análise gratuita!</h2>
         <p>Chame o consultor para receber uma análise gratuita de nossa equipe de especialistas.</p>
@@ -61,6 +61,6 @@ export function SubPageFaleConosco(props) {
 
       </form>
 
-    </div>
+    </section>
   )
 }

@@ -5,11 +5,9 @@ export function SubPagePerguntas(props) {
 
   
   return (
-    <div className={styles.faleConosco}>
+    <section className={styles.faleConosco}>
       <h2 className={styles.faleConoscoTitulo}>Perguntas <span className={styles.faleConoscoTituloSpan}>frequentes</span></h2>
       <Accordion   />
-
-
-    </div>
+    </section>
   )
 }

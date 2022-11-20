@@ -8,30 +8,6 @@ import styles from './Clientes.module.css';
 
 
 
-import cliente4 from '../../public/assets/clientes/cliente1.png';
-import cliente24 from '../../public/assets/clientes/cliente16.png';
-import cliente14 from '../../public/assets/clientes/cliente17.png';
-import cliente3 from '../../public/assets/clientes/cliente18.png';
-import cliente23 from '../../public/assets/clientes/cliente19.png';
-import cliente13 from '../../public/assets/clientes/cliente20.png';
-import cliente2 from '../../public/assets/clientes/cliente21.png';
-import cliente22 from '../../public/assets/clientes/cliente22.png';
-import cliente12 from '../../public/assets/clientes/cliente23.png';
-import cliente1 from '../../public/assets/clientes/cliente24.png';
-import cliente21 from '../../public/assets/clientes/cliente25.png';
-import cliente11 from '../../public/assets/clientes/cliente26.png';
-import cliente20 from '../../public/assets/clientes/cliente27.png';
-import cliente10 from '../../public/assets/clientes/cliente28.png';
-import cliente5 from '../../public/assets/clientes/cliente29.png';
-import cliente15 from '../../public/assets/clientes/cliente3.png';
-import cliente6 from '../../public/assets/clientes/cliente30.png';
-import cliente16 from '../../public/assets/clientes/cliente31.png';
-import cliente7 from '../../public/assets/clientes/cliente32.png';
-import cliente17 from '../../public/assets/clientes/cliente33.png';
-import cliente8 from '../../public/assets/clientes/cliente4.png';
-import cliente18 from '../../public/assets/clientes/cliente5.png';
-import cliente9 from '../../public/assets/clientes/cliente6.png';
-import cliente19 from '../../public/assets/clientes/cliente8.png';
 
 
 
@@ -67,9 +43,161 @@ export function SubPageClientes(props) {
 
 
   return (
-    <div className={styles.clienteContainer}>
+    <section className={styles.clienteContainer}>
       <h2 className={styles.clienteTitulo}>Clientes e <span className={styles.clienteTituloSpan}>Feedback</span></h2>
 
+
+
+      <p className={styles.clienteTexto}>
+        A Tecmanga é uma agência feita para descomplicar seu site. Foque no seu negócio/conteúdo que nos cuida dos bastidores para manter as melhores técnicas de performance e SEO. Juntos faremos seu negócio decolar.        </p>
+
+      <Swiper className={`${styles.Swiper}  ${"SwiperCliente"}`}
+        effect={"coverflow"}
+        loop={true}
+        navigation={true}
+        grabCursor={true} re
+        centeredSlides={true}
+        slidesPerView={tamanhoTelaFeedBack}
+        spaceBetween={10}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 10,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        }}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
+
+
+        pagination={true}
+        modules={[Autoplay, EffectCoverflow, Pagination]}
+      >
+        <SwiperSlide className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
+
+          <div className={styles.Box}>
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
+            </div>
+          </div>
+
+
+        </SwiperSlide>
+
+        <SwiperSlide className={styles.SwiperSlide}>
+          <div className={styles.Box}>
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
+          <div className={styles.Box}>
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className={styles.SwiperSlide}>
+          <div className={styles.Box}>
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
+          <div className={styles.Box}>
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className={styles.SwiperSlide}>
+          <div className={styles.Box}>
+            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
+            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
+            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
+              <div className={styles.iconClienteBox}>
+                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
+              </div>
+              <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
+            </div>
+          </div>
+        </SwiperSlide>
+
+
+
+
+      </Swiper>
+
+
+
+    </section>
+  )
+}
+
+function useWindowSize() {
+  // Initialize state with undefined width/height so server and client renders match
+  // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  });
+
+  useEffect(() => {
+    // only execute all the code below in client side
+    // Handler to call on window resize
+    function handleResize() {
+      // Set window width/height to state
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Call handler right away so state gets updated with initial window size
+    handleResize();
+
+    // Remove event listener on cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []); // Empty array ensures that effect is only run on mount
+  return windowSize;
+}
+
+/*
       <Swiper className={styles.SwiperLogo}
         effect={"coverflow"}
         loop={true}
@@ -217,154 +345,4 @@ export function SubPageClientes(props) {
 
 
       </Swiper>
-
-
-
-      <p className={styles.clienteTexto}>
-        A Tecmanga é uma agência feita para descomplicar seu site. Foque no seu negócio/conteúdo que nos cuida dos bastidores para manter as melhores técnicas de performance e SEO. Juntos faremos seu negócio decolar.        </p>
-
-      <Swiper className={`${styles.Swiper}  ${"SwiperCliente"}`}
-        effect={"coverflow"}
-        loop={true}
-        navigation={true}
-        grabCursor={true} re
-        centeredSlides={true}
-        slidesPerView={tamanhoTelaFeedBack}
-        spaceBetween={10}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 10,
-          depth: 100,
-          modifier: 1,
-          slideShadows: false,
-        }}
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-        }}
-
-
-        pagination={true}
-        modules={[Autoplay, EffectCoverflow, Pagination]}
-      >
-        <SwiperSlide className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
-
-          <div className={styles.Box}>
-            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
-              <div className={styles.iconClienteBox}>
-                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
-              </div>
-              <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-            </div>
-          </div>
-
-
-        </SwiperSlide>
-
-        <SwiperSlide className={styles.SwiperSlide}>
-          <div className={styles.Box}>
-            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
-              <div className={styles.iconClienteBox}>
-                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
-              </div>
-              <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
-          <div className={styles.Box}>
-            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
-              <div className={styles.iconClienteBox}>
-                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
-              </div>
-              <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide className={styles.SwiperSlide}>
-          <div className={styles.Box}>
-            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
-              <div className={styles.iconClienteBox}>
-                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
-              </div>
-              <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide className={`${styles.SwiperSlide} ${"SwiperSlide"}`} >
-          <div className={styles.Box}>
-            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
-              <div className={styles.iconClienteBox}>
-                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
-              </div>
-              <p className={`${styles.Name} ${"destaque"}`} >Carolina Alves<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide className={styles.SwiperSlide}>
-          <div className={styles.Box}>
-            <ImQuotesLeft className={`${styles.IconAspas} ${"IconAspas"}`} />
-            <p className={`${styles.Texto} ${"Texto"}`}>Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!Eu amo a tecManga!</p>
-            <div className={`${styles.Detalhes} ${"Detalhes"}`} >
-              <div className={styles.iconClienteBox}>
-                <Image src={trabalho} className={styles.iconCliente} alt="Logo TecManga" />
-              </div>
-              <p className={`${styles.Name} ${"destaque"}`} >Brunno Soares<br></br> <span className={`${styles.NameCargo}`}>Importadora</span></p>
-            </div>
-          </div>
-        </SwiperSlide>
-
-
-
-
-      </Swiper>
-
-
-
-    </div>
-  )
-}
-
-function useWindowSize() {
-  // Initialize state with undefined width/height so server and client renders match
-  // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
-  const [windowSize, setWindowSize] = useState({
-    width: undefined,
-    height: undefined,
-  });
-
-  useEffect(() => {
-    // only execute all the code below in client side
-    // Handler to call on window resize
-    function handleResize() {
-      // Set window width/height to state
-      setWindowSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    }
-
-    // Add event listener
-    window.addEventListener("resize", handleResize);
-
-    // Call handler right away so state gets updated with initial window size
-    handleResize();
-
-    // Remove event listener on cleanup
-    return () => window.removeEventListener("resize", handleResize);
-  }, []); // Empty array ensures that effect is only run on mount
-  return windowSize;
-}
+*/
