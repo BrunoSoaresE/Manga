@@ -2,14 +2,15 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+  font-family: Goldman,Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;  
     
 }
 
-textarea,input,div,p,h1,h2,h3,span{
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+textarea,input,div,p,h1,h2,h3,span,ul,li{
+  font-family: Goldman,Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    
 }
 
 a {
