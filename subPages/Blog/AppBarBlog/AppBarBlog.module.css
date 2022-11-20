@@ -37,6 +37,8 @@
   width: auto;  
 }
 .menuToggle{
+  margin-top: 1vh;
+  margin-right: 1vw;
   font-size: 2em;
 }
 
