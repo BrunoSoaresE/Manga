@@ -3,9 +3,10 @@ import { useEffect, useRef } from "react";
 import { CgMenu } from "react-icons/cg";
 import logo from '../../public/assets/logos/LogoOficialVerdeSemBorda.png';
 import styles from './AppBar.module.css';
+
+
 export function SubPageAppBar(props) {
 
-console.log(logo);
   const refMenuToggle = useRef();
   const refSubPageMenuLateral = useRef();
   const refMLEspace = useRef();
@@ -21,7 +22,6 @@ console.log(logo);
         refSubPageMenuLateral.current.classList.toggle(styles.open);
         refSubPageMenuLateral.current.classList.toggle(styles.openclose);
       }, 300);
-
     }
   }, [])
 

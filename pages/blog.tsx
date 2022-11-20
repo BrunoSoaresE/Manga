@@ -1,10 +1,13 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { SubPageAppBar } from '../subPages/Blog/AppBarBlog/AppBarBlog';
+/*
 import { SubPageListaDestaque } from '../subPages/Blog/ListaDestaque/ListaDestaque';
-import { SubPageListaPostagem } from '../subPages/Blog/ListaPostagem/ListaPostagem';
+<SubPageListaDestaque name="0 - SubPageAppBar"></SubPageListaDestaque>
 
-
+import { SubPageListaPostagem } from '../subPages/Blog/ListaPostagem/ListaPostagem';         
+<SubPageListaPostagem name="0 - SubPageAppBar"></SubPageListaPostagem>
+*/
 export default function Blog() {
   return (
     <div className={styles.container}>
@@ -29,9 +32,7 @@ export default function Blog() {
 
       <main className={styles.main}>
         <SubPageAppBar name="0 - SubPageAppBar"></SubPageAppBar>
-        
-        <SubPageListaPostagem name="0 - SubPageAppBar"></SubPageListaPostagem>
-        <SubPageListaDestaque name="0 - SubPageAppBar"></SubPageListaDestaque>
+
 
       
       </main>

@@ -1,20 +1,36 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { useEffect, useRef } from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsInstagram, BsWhatsapp } from "react-icons/bs";
-import { CgMenu, CgSearch } from "react-icons/cg";
+import { CgClose, CgMenu, CgSearch } from "react-icons/cg";
 import logo from '../../../public/assets/logos/LogoOficialVerdeSemBorda.png';
 import styles from './AppBarBlog.module.css';
-export function SubPageAppBar(props) {
 
-  console.log(logo);
+export function SubPageAppBar(props) {
+  const refSearchDiv = useRef();
+  const refSearchBox = useRef();
+  const refSearch = useRef();
+  const refClose = useRef();
+
+
   const refMenuToggle = useRef();
   const refSubPageMenuLateral = useRef();
   const refMLEspace = useRef();
 
 
   useEffect(() => {
+    refSearch.current.onclick = function () {
+      refSearchBox.current.classList.add(styles.active);
+      refSearchDiv.current.classList.add(styles.active);
+
+      refClose.current.classList.add(styles.visible);
+    }
+    refClose.current.onclick = function () {
+      refClose.current.classList.remove(styles.visible);
+      refSearchDiv.current.classList.remove(styles.active);
+
+      refSearchBox.current.classList.remove(styles.active);
+    }
+
+
     refMenuToggle.current.onclick = function () {
       refSubPageMenuLateral.current.classList.toggle(styles.open);
     }
@@ -24,8 +40,8 @@ export function SubPageAppBar(props) {
         refSubPageMenuLateral.current.classList.toggle(styles.open);
         refSubPageMenuLateral.current.classList.toggle(styles.openclose);
       }, 300);
-
     }
+
   }, [])
 
 
@@ -36,41 +52,54 @@ export function SubPageAppBar(props) {
         <div className={styles.MLEspace} ref={refMLEspace}></div>
         <div className={styles.MLgroup} >
           <ul className={styles.MLnavigation}>
-            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Hospedagem</a></li>
             <li><a href="#">Vantagens</a></li>
-            <li><a href="#">Portifólio</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#">Diferenciais</a></li>
           </ul>
         </div>
       </div>
 
 
       <header className={`${styles.header} ${"backgroundAppBar"} `}   >
-        <div className={styles.headerSuperior}>
 
-          <div className={styles.areaIconsBtn}>
-            <div ref={refMenuToggle} className={styles.menuToggle}>
-              <CgMenu />
-            </div>
-
-            <div ref={refMenuToggle} className={styles.iconBusca}>
-              <CgSearch />
-            </div>
+        <div className={styles.headerMenu}>
+          <div className={styles.menuToggle} ref={refMenuToggle}>
+            <CgMenu />
           </div>
+        </div>
 
-<div className={styles.areaLogo}>
-          <a href='#' className={styles.logo}><Image src={logo} className={styles.logoImg} alt="Logo TecManga" /></a>
+        <div className={styles.headerSuperior}>
+          <div className={styles.areaIconsBtn}>
+          </div>
+          <div className={styles.areaLogo}>
+            <a href='#' className={styles.logo}><Image src={logo} className={styles.logoImg} alt="Logo TecManga" /></a>
+
           </div>
           <div className={styles.areaIconsRedes}>
+          </div>
+        </div>
 
-            <Link target={"_blank"} href="https://web.whatsapp.com/send?phone=5531984437010" ><BsWhatsapp className={styles.ContatoElenIcon} />   </Link>
-            <Link target={"_blank"} href="https://www.instagram.com/tec.manga/" ><BsInstagram className={styles.ContatoElenIcon} />   </Link>
-            <Link target={"_blank"} href="mailto:bruno.soaest95@gmail.com" ><AiOutlineMail className={styles.ContatoElenIcon} />   </Link>
+        <div className={styles.headerInferior}>
+
+
+          <div className={styles.group}>
+            <ul className={styles.navigation}>
+              <li><a href="#">Hospedagem</a></li>
+              <li><a href="#">Vantagens</a></li>
+              <li><a href="#">Diferenciais</a></li>
+            </ul>
+
+            <div className={styles.Search} ref={refSearchDiv}>
+              <span ref={refSearch}> <CgSearch /></span>
+              <span className={styles.btnClose} ref={refClose}> <CgClose /></span>
+
+            </div>
+            <div className={styles.SearchBox} ref={refSearchBox}>
+              <input type="text" placeholder="Busca..." ></input>
+            </div>
           </div>
 
 
-        </div>
-        <div className={styles.headerInferior}>
 
         </div>
 
