@@ -53,6 +53,9 @@ section{
   margin: auto;
   margin-bottom: 10vh;
 }
+.noWrap{
+  white-space: nowrap;
+}
 
 .SwiperCliente .swiper-slide-active{
   filter: blur(0px) !important;

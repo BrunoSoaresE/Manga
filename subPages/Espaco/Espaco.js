@@ -9,7 +9,7 @@ export function SubPageEspaco(props) {
       <div className={styles.espacoUL}>
         <div className={styles.espacoLI}>
           <div className={styles.espacoTexto}>
-            <h2 className={styles.espacoTitulo}>“A melhor forma de prever o futuro é criá-lo”<br></br><span className={styles.espacoAutor}>Peter F. Drucker</span></h2>
+            <h2 className={styles.espacoTitulo}>“A melhor forma de prever o futuro é <span className={`${"noWrap"} `}>criá-lo</span>”<br></br><span className={styles.espacoAutor}>Peter F. Drucker</span></h2>
             <p className={`${styles.espacoP} ${"textoClaro"} `}>
               A tecManga é uma agência de criação de sites focada em descomplicar o mercado de webSites.Nosso objetivo é levar ao maior número de pessoas um site bonito, rápido,escalável e técnicas de SEO gerando mais resultados de posicionamento orgânico para sua empresa.
               </p>
