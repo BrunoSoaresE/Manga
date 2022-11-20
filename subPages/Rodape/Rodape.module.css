@@ -18,6 +18,7 @@
 
 .Contato{
   margin: auto;
+  white-space: nowrap;
 }
 
 .ContatoElenIcon{
@@ -25,8 +26,10 @@
   margin-right: 2.5vw;
 }
 .ContatoElenIconG{
-  font-size: 1.8em;
+  font-size: 2.1em;
   margin-right: 2.5vw;
+  position: relative;
+  top: 3px;
 }
 
 .TecManga{
@@ -51,7 +54,16 @@
     font-size: 1.6em;
   }
   .ContatoElenIconG{
-    font-size: 1.7em;
+    font-size: 1.8em;
+    top: 2px;
+
+  }
+}
+
+@media(max-width: 500px) { 
+
+  .ContatoElenIconG{
+    top: 0px;
   }
 }
 
@@ -64,7 +76,9 @@
     font-size: 1.5em;
   }
   .ContatoElenIconG{
-    font-size: 1.6em;
+    font-size: 1.7em;
+    top: 0px;
+
   }
 }
 
@@ -76,7 +90,9 @@
     font-size: 1em;
   }
   .ContatoElenIconG{
-    font-size: 1.1em;
+    font-size: 1.2em;
+    top: 0px;
+
   }
 }
 

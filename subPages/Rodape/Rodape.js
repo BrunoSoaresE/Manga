@@ -24,7 +24,7 @@ export function SubPageRodape(props) {
       <div className={styles.Contato}>       
       <Link target={"_blank"} href="https://web.whatsapp.com/send?phone=5531984437010" ><BsWhatsapp className={styles.ContatoElenIcon} />   </Link>
       <Link target={"_blank"} href="https://www.instagram.com/tec.manga/" ><BsInstagram className={styles.ContatoElenIcon} />   </Link>
-      <Link target={"_blank"} href="mailto:bruno.soaest95@gmail.com" ><AiOutlineMail className={styles.ContatoElenIcon} />   </Link>
+      <Link target={"_blank"} href="mailto:bruno.soaest95@gmail.com" ><AiOutlineMail className={styles.ContatoElenIconG} />   </Link>
 
       
       </div>

@@ -51,7 +51,8 @@ export function SubPageClientes(props) {
 
 
       <p className={styles.clienteTexto}>
-        A Tecmanga é uma agência feita para descomplicar seu site. Foque no seu negócio/conteúdo que nos cuida dos bastidores para manter as melhores técnicas de performance e SEO. Juntos faremos seu negócio decolar.        </p>
+        A TecManga é uma agência feita para descomplicar seu site. Foque no seu negócio/conteúdo que nós cuidamos dos bastidores para manter as melhores técnicas de performance e SEO. Juntos faremos seu negócio decolar.
+      </p>
 
       <Swiper className={`${styles.Swiper}  ${"SwiperCliente"}`}
         effect={"coverflow"}

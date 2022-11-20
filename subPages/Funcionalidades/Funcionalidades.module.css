@@ -6,7 +6,6 @@
 
 .funcionalidadesTituloSpan {
   color: #D76A03;
-
 }
 
 
@@ -14,11 +13,9 @@
   padding-left: 4vw;
   padding-right: 5vw;
 }
-
-.funcionalidadesLI {
-  list-style: none;
+.funcionalidadesLi{
+  display: flex;
 }
-
 .card {  
   padding: 1vw;
   width: 46%;
@@ -49,23 +46,26 @@
     text-align: justify;
 }
 
+@media(max-width: 1330px)
+{
+  .funcionalidadesLi{
+    display: block;
+  }
+  .card {
+    width: 99%;   
+  }
 
+
+}
 
 @media(max-width: 800px)
 {
-  .card {
-    display: block; 
-    width: 99%; 
-  
-  }
-
   .FuncionalideLiTitulo{  
     font-size: 1.7em;
   }  
   .FuncionalideLiDesc{
       font-size: 1.3em; 
-  }
-  
+  } 
 
 }
 

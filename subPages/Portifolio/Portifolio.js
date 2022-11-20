@@ -7,8 +7,8 @@ export function SubPagePortifolio(props) {
     <section className={styles.portifolio}>
       <span className={`${"ancora"}`} id='ancoraPortifolio'></span>
 
-      <h2 className={styles.portifolioTitulo}>Nosso <span className={styles.portifolioTituloSpan}>portifólio</span></h2>
-      <p className={`${styles.portifolioTexto} ${"textoClaro"} `}>Descubra alguns sites desenvolvidos recentemente pela manga</p>
+      <h2 className={styles.portifolioTitulo}>Nosso <span className={styles.portifolioTituloSpan}>portfólio</span></h2>
+      <p className={`${styles.portifolioTexto} ${"textoClaro"} `}>Descubra alguns sites desenvolvidos recentemente pela TecManga</p>
       <p className={"destaque"}>Queremos você aqui também!</p>
       
 

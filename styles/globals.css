@@ -15,8 +15,8 @@ a {
 }
 
 H1,H2 {
-  font-size: 3em;
-  font-weight: bold;
+  font-size: 2.5em;
+  font-weight: 600;
   margin: auto;
   text-align: center;
 }
@@ -29,12 +29,12 @@ p {
 
 p.destaque {
   font-size: 1.6em;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
 }
 p.destaque.left {
   font-size: 1.6em;
-  font-weight: 600;
+  font-weight: 400;
   text-align: left;
   
 }
@@ -73,7 +73,7 @@ section{
 
 @media(max-width: 800px) {
   H1,  H2 {
-    font-size: 2.5em;
+    font-size: 2.3em;
   }
   p {
     font-size: 1.3em;
@@ -86,7 +86,7 @@ section{
 
 @media(max-width: 400px) {
   H1,  H2 {
-    font-size: 2em;
+    font-size: 1.8em;
   }
   p {
     font-size: 1.2em;
