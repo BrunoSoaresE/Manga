@@ -8,7 +8,7 @@ import { SubPageListaDestaque } from '../subPages/Blog/ListaDestaque/ListaDestaq
 import { SubPageListaPostagem } from '../subPages/Blog/ListaPostagem/ListaPostagem';         
 <SubPageListaPostagem name="0 - SubPageAppBar"></SubPageListaPostagem>
 */
-export default function Blog() {
+export default function Blog3() {
   return (
     <div className={styles.container}>
       <Head>
@@ -18,8 +18,8 @@ export default function Blog() {
         <meta name='description' content='Seu site está próximo de se tornar realidade a TecManga vai ajuda-lo a tornar seu sonho realidade sem dor de cabeça' />
         <meta property="og:description" content="Seu site está próximo de se tornar realidade a TecManga vai ajuda-lo a tornar seu sonho realidade sem dor de cabeça." />
 
-        <meta property="og:image" content="/assets/logos/LogoColorida.png" />
-        <link rel='icon' href='/assets/logos/LogoColorida.png' />
+        <meta property="og:image" content="/assets/logos/LogoMangaLaranja.png" />
+        <link rel='icon' href='/assets/logos/LogoMangaLaranja.png' />
 
         <meta name="author" content="TecManga" />
         <meta name="copyright" content="© 2022 TecManga" />
