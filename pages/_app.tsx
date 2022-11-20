@@ -1,8 +1,8 @@
-import { Goldman } from '@next/font/google'
+import { Roboto } from '@next/font/google'
 import type { AppProps } from 'next/app'
 import '../styles/globals.css'
 
-const fontFamily = Goldman({ weight: '400' })
+const fontFamily = Roboto({ weight: '400' })
 
 
 export default function App({ Component, pageProps }: AppProps) {
