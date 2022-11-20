@@ -10,10 +10,19 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <style jsx global>{`
-      html {
-        font-family: ${fontFamily.style.fontFamily};
-      }
-    `}</style>
+        html {
+          font-family: ${fontFamily.style.fontFamily};
+        }
+        body {
+          font-family: ${fontFamily.style.fontFamily};
+        }
+        textarea {
+          font-family: ${fontFamily.style.fontFamily};
+        }
+        input {
+          font-family: ${fontFamily.style.fontFamily};
+        }
+      `}</style>
       <Component {...pageProps} />
     </>
   )

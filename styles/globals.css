@@ -4,6 +4,15 @@ body {
   margin: 0;     
 }
 
+html,
+body {
+  font-family: Goldman;      
+}
+textarea,input{
+  font-family: Goldman;    
+}
+
+
 
 a {
   color: inherit;
@@ -15,7 +24,7 @@ a {
 }
 
 H1,H2 {
-  font-size: 2.8em;
+  font-size: 3em;
   font-weight: 600;
   margin: auto;
   text-align: center;
