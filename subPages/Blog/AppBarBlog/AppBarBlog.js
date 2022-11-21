@@ -52,9 +52,10 @@ export function SubPageAppBar(props) {
         <div className={styles.MLEspace} ref={refMLEspace}></div>
         <div className={styles.MLgroup} >
           <ul className={styles.MLnavigation}>
-            <li><a href="#">Hospedagem</a></li>
-            <li><a href="#">Vantagens</a></li>
-            <li><a href="#">Diferenciais</a></li>
+            <li><a href="#">Humor</a></li>
+            <li><a href="#">Curiosiade</a></li>
+            <li><a href="#">Filmes e séries</a></li>
+            <li><a href="#">Outros</a></li>
           </ul>
         </div>
       </div>
@@ -84,9 +85,11 @@ export function SubPageAppBar(props) {
 
           <div className={styles.group}>
             <ul className={styles.navigation}>
-              <li><a href="#">Hospedagem</a></li>
-              <li><a href="#">Vantagens</a></li>
-              <li><a href="#">Diferenciais</a></li>
+            <li><a href="#">Humor</a></li>
+            <li><a href="#">Curiosiade</a></li>
+
+            <li><a href="#">Filmes e séries</a></li>
+            <li><a href="#">Outros</a></li>
             </ul>
 
             <div className={styles.Search} ref={refSearchDiv}>

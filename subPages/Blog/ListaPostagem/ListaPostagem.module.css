@@ -1,9 +1,73 @@
-.ListaPostagem{
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+.ListaPostagem {
+  margin-top: 100vh;
   color: #D76A03;
-  background: blue;
-  min-height: 10vh;
-  margin-top: 20vh;
-  border: solid black 3px;
+  margin: auto;
+  margin-bottom: 3vh;
+  margin-top: 200px;
 }
+
+.PostNewLine {  
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+  
+}
+
+
+.Post {
+  width: 400px !important;
+  border: solid black 1px;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 5px;
+  background: white;
+  transition: 0.5s; 
+  transform-origin: bottom;
+  height: 400px !important;
+  overflow-y: hidden;
+
+}
+
+.Post:hover {
+  height: 600px !important;
+ }
+
+.Post .PostTexto {  
+  opacity: 0; 
+
+}
+
+.Post:hover .PostTexto {
+  opacity: 1;
+}
+
+
+.ImgCard {
+  border-radius: 25px;
+  margin: auto;
+  padding-top: 3vh;
+}
+
+.Img {
+  border-radius: 25px;
+  width: 80%;
+  max-width: 400px;
+  margin-left: 10%;
+  height: auto;
+}
+
+
+.TagCard {
+  border: solid blue 1px;
+  width: 100px;
+  border-radius: 25px;
+  position: relative;
+  top: -20px;
+}
+
+.Tag {}
+
+.PostTitulo {}
+

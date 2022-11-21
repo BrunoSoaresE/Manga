@@ -192,7 +192,6 @@
 
 
 
-
 .menuLateral
 {
   background: rgba(0, 0, 0, 0.4);
@@ -203,7 +202,9 @@
   height: 100%;   
   box-shadow:  0 5vh 5vh rgba(0,0,0,0.05);
   z-index: 90;
-  /*transition-delay: 0.3s;*/
+
+
+
   visibility: hidden;
 
 }
@@ -221,12 +222,10 @@
   padding-bottom: 2vh;  
   padding-right: 5vw;  
   padding-left: 5vw;  
+  opacity: 0;
 
+  transition: 0.5s ease-in-out;
 
-  -webkit-transition: width 0.3s ease-in-out;
-  -moz-transition: width  0.3s ease-in-out;
-  -o-transition: width  0.3s ease-in-out;
-  transition: width  0.3s ease-in-out; 
 }
 
 .MLEspace{
@@ -240,10 +239,13 @@
   visibility: visible;
 }
 .menuLateral.open .MLgroup{
-  width:60%;
+  width:40%;
+  opacity: 1;
+
 }
 .menuLateral.openclose .MLgroup{
   width: 0%;
+  visibility: hidden;
 }
 
 .menuLateral ul
@@ -290,6 +292,10 @@
   position: absolute;
   left: 0;
 }
+
+
+
+
 
 
 
