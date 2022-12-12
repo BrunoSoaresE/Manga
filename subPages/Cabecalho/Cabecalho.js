@@ -12,7 +12,7 @@ export function SubPageCabecalho(props) {
 
       <Link target={"_blank"} href="https://web.whatsapp.com/send?phone=5531984437010" >
         <div className={styles.btnOrcamento}>
-          <BsWhatsapp  className={styles.iconbtnOrcamento}/>      Solicitar orçamento
+            <BsWhatsapp  className={styles.iconbtnOrcamento}/>      Solicitar orçamento
         </div>
       </Link>
       <span></span>
